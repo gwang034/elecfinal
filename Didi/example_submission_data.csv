@@ -20,13 +20,13 @@ ID,connected
 18,True
 19,False
 20,True
-21,False
+21,True
 22,False
 23,True
 24,True
 25,False
 26,False
-27,False
+27,True
 28,True
 29,False
 30,False
@@ -117,7 +117,7 @@ ID,connected
 115,False
 116,True
 117,False
-118,False
+118,True
 119,True
 120,True
 121,False
@@ -148,7 +148,7 @@ ID,connected
 146,False
 147,False
 148,False
-149,False
+149,True
 150,False
 151,True
 152,True
@@ -158,7 +158,7 @@ ID,connected
 156,True
 157,True
 158,False
-159,False
+159,True
 160,False
 161,False
 162,True
@@ -242,7 +242,7 @@ ID,connected
 240,True
 241,False
 242,False
-243,False
+243,True
 244,False
 245,True
 246,False
@@ -254,7 +254,7 @@ ID,connected
 252,True
 253,True
 254,True
-255,True
+255,False
 256,False
 257,False
 258,True
@@ -336,7 +336,7 @@ ID,connected
 334,True
 335,True
 336,True
-337,True
+337,False
 338,False
 339,False
 340,False
@@ -368,7 +368,7 @@ ID,connected
 366,False
 367,False
 368,False
-369,False
+369,True
 370,False
 371,False
 372,True
@@ -433,11 +433,11 @@ ID,connected
 431,False
 432,False
 433,True
-434,False
+434,True
 435,True
 436,False
 437,False
-438,False
+438,True
 439,False
 440,True
 441,True
@@ -485,7 +485,7 @@ ID,connected
 483,True
 484,False
 485,True
-486,False
+486,True
 487,False
 488,False
 489,False
@@ -572,7 +572,7 @@ ID,connected
 570,False
 571,False
 572,False
-573,False
+573,True
 574,False
 575,False
 576,True
@@ -612,7 +612,7 @@ ID,connected
 610,False
 611,True
 612,True
-613,True
+613,False
 614,False
 615,False
 616,False
@@ -632,7 +632,7 @@ ID,connected
 630,False
 631,True
 632,True
-633,False
+633,True
 634,False
 635,False
 636,True
@@ -691,7 +691,7 @@ ID,connected
 689,False
 690,True
 691,True
-692,True
+692,False
 693,False
 694,False
 695,False
@@ -740,7 +740,7 @@ ID,connected
 738,True
 739,False
 740,True
-741,True
+741,False
 742,False
 743,False
 744,False
@@ -806,7 +806,7 @@ ID,connected
 804,False
 805,True
 806,True
-807,False
+807,True
 808,False
 809,False
 810,True
@@ -922,7 +922,7 @@ ID,connected
 920,True
 921,False
 922,False
-923,False
+923,True
 924,False
 925,True
 926,False
@@ -1009,7 +1009,7 @@ ID,connected
 1007,True
 1008,True
 1009,True
-1010,False
+1010,True
 1011,False
 1012,True
 1013,False
@@ -1139,11 +1139,11 @@ ID,connected
 1137,False
 1138,False
 1139,True
-1140,False
+1140,True
 1141,False
 1142,True
 1143,False
-1144,False
+1144,True
 1145,False
 1146,False
 1147,False
@@ -1170,7 +1170,7 @@ ID,connected
 1168,True
 1169,False
 1170,True
-1171,False
+1171,True
 1172,True
 1173,False
 1174,True
@@ -1195,14 +1195,14 @@ ID,connected
 1193,False
 1194,True
 1195,False
-1196,False
+1196,True
 1197,True
 1198,True
 1199,False
 1200,False
 1201,False
 1202,True
-1203,True
+1203,False
 1204,False
 1205,False
 1206,False
@@ -1225,7 +1225,7 @@ ID,connected
 1223,False
 1224,True
 1225,False
-1226,False
+1226,True
 1227,False
 1228,False
 1229,True
@@ -1273,7 +1273,7 @@ ID,connected
 1271,False
 1272,False
 1273,False
-1274,False
+1274,True
 1275,False
 1276,True
 1277,True
@@ -1452,9 +1452,9 @@ ID,connected
 1450,True
 1451,False
 1452,True
-1453,False
+1453,True
 1454,False
-1455,False
+1455,True
 1456,False
 1457,True
 1458,True
@@ -1504,7 +1504,7 @@ ID,connected
 1502,True
 1503,True
 1504,False
-1505,True
+1505,False
 1506,False
 1507,False
 1508,True
@@ -1536,8 +1536,8 @@ ID,connected
 1534,False
 1535,False
 1536,False
-1537,False
-1538,False
+1537,True
+1538,True
 1539,True
 1540,False
 1541,False
@@ -1676,7 +1676,7 @@ ID,connected
 1674,False
 1675,False
 1676,False
-1677,False
+1677,True
 1678,False
 1679,False
 1680,False
@@ -1722,7 +1722,7 @@ ID,connected
 1720,False
 1721,False
 1722,False
-1723,False
+1723,True
 1724,False
 1725,True
 1726,True
@@ -1756,8 +1756,8 @@ ID,connected
 1754,True
 1755,True
 1756,True
-1757,False
-1758,False
+1757,True
+1758,True
 1759,False
 1760,False
 1761,False
@@ -1769,7 +1769,7 @@ ID,connected
 1767,False
 1768,False
 1769,True
-1770,False
+1770,True
 1771,False
 1772,False
 1773,False
@@ -1798,7 +1798,7 @@ ID,connected
 1796,True
 1797,True
 1798,True
-1799,False
+1799,True
 1800,False
 1801,False
 1802,False
@@ -1830,18 +1830,18 @@ ID,connected
 1828,True
 1829,True
 1830,True
-1831,False
+1831,True
 1832,False
 1833,False
 1834,True
-1835,False
+1835,True
 1836,False
-1837,False
+1837,True
 1838,False
 1839,False
 1840,True
 1841,True
-1842,False
+1842,True
 1843,False
 1844,False
 1845,False
@@ -1900,8 +1900,8 @@ ID,connected
 1898,True
 1899,False
 1900,True
-1901,False
-1902,False
+1901,True
+1902,True
 1903,False
 1904,False
 1905,False
@@ -2025,7 +2025,7 @@ ID,connected
 2023,True
 2024,True
 2025,False
-2026,False
+2026,True
 2027,False
 2028,True
 2029,False
@@ -2054,7 +2054,7 @@ ID,connected
 2052,True
 2053,False
 2054,True
-2055,False
+2055,True
 2056,False
 2057,False
 2058,True
@@ -2075,7 +2075,7 @@ ID,connected
 2073,True
 2074,False
 2075,True
-2076,False
+2076,True
 2077,False
 2078,False
 2079,False
@@ -2087,8 +2087,8 @@ ID,connected
 2085,True
 2086,True
 2087,True
-2088,False
-2089,False
+2088,True
+2089,True
 2090,False
 2091,False
 2092,False
@@ -2241,7 +2241,7 @@ ID,connected
 2239,False
 2240,True
 2241,True
-2242,False
+2242,True
 2243,False
 2244,False
 2245,False
@@ -2259,7 +2259,7 @@ ID,connected
 2257,False
 2258,False
 2259,False
-2260,False
+2260,True
 2261,True
 2262,True
 2263,False
@@ -2398,7 +2398,7 @@ ID,connected
 2396,False
 2397,False
 2398,True
-2399,False
+2399,True
 2400,False
 2401,False
 2402,False
@@ -2418,7 +2418,7 @@ ID,connected
 2416,True
 2417,True
 2418,True
-2419,False
+2419,True
 2420,False
 2421,False
 2422,False
@@ -2500,7 +2500,7 @@ ID,connected
 2498,True
 2499,True
 2500,True
-2501,False
+2501,True
 2502,False
 2503,False
 2504,False
@@ -2538,7 +2538,7 @@ ID,connected
 2536,True
 2537,True
 2538,True
-2539,False
+2539,True
 2540,False
 2541,False
 2542,False
@@ -2653,7 +2653,7 @@ ID,connected
 2651,True
 2652,True
 2653,True
-2654,False
+2654,True
 2655,False
 2656,True
 2657,True
@@ -2768,7 +2768,7 @@ ID,connected
 2766,True
 2767,True
 2768,True
-2769,True
+2769,False
 2770,False
 2771,False
 2772,False
@@ -2833,7 +2833,7 @@ ID,connected
 2831,False
 2832,True
 2833,True
-2834,False
+2834,True
 2835,False
 2836,False
 2837,False
@@ -2856,7 +2856,7 @@ ID,connected
 2854,True
 2855,True
 2856,True
-2857,False
+2857,True
 2858,False
 2859,False
 2860,False
@@ -2872,7 +2872,7 @@ ID,connected
 2870,True
 2871,False
 2872,False
-2873,False
+2873,True
 2874,True
 2875,True
 2876,True
@@ -3109,7 +3109,7 @@ ID,connected
 3107,False
 3108,False
 3109,True
-3110,False
+3110,True
 3111,False
 3112,False
 3113,False
@@ -3238,7 +3238,7 @@ ID,connected
 3236,False
 3237,False
 3238,True
-3239,False
+3239,True
 3240,False
 3241,True
 3242,False
@@ -3526,13 +3526,13 @@ ID,connected
 3524,False
 3525,True
 3526,True
-3527,False
+3527,True
 3528,False
 3529,False
 3530,True
 3531,True
 3532,True
-3533,False
+3533,True
 3534,False
 3535,False
 3536,True
@@ -3572,7 +3572,7 @@ ID,connected
 3570,False
 3571,True
 3572,True
-3573,False
+3573,True
 3574,False
 3575,False
 3576,False
@@ -3582,7 +3582,7 @@ ID,connected
 3580,False
 3581,True
 3582,True
-3583,False
+3583,True
 3584,False
 3585,True
 3586,True
@@ -3624,9 +3624,9 @@ ID,connected
 3622,True
 3623,True
 3624,True
-3625,False
-3626,False
-3627,False
+3625,True
+3626,True
+3627,True
 3628,False
 3629,False
 3630,False
@@ -3650,7 +3650,7 @@ ID,connected
 3648,False
 3649,True
 3650,True
-3651,False
+3651,True
 3652,False
 3653,False
 3654,False
@@ -3666,7 +3666,7 @@ ID,connected
 3664,True
 3665,True
 3666,False
-3667,False
+3667,True
 3668,True
 3669,True
 3670,True
@@ -3725,7 +3725,7 @@ ID,connected
 3723,False
 3724,True
 3725,True
-3726,False
+3726,True
 3727,False
 3728,False
 3729,True
@@ -3803,7 +3803,7 @@ ID,connected
 3801,True
 3802,False
 3803,True
-3804,False
+3804,True
 3805,False
 3806,False
 3807,False
@@ -3842,7 +3842,7 @@ ID,connected
 3840,False
 3841,True
 3842,True
-3843,True
+3843,False
 3844,False
 3845,False
 3846,False
@@ -3885,8 +3885,8 @@ ID,connected
 3883,True
 3884,True
 3885,True
-3886,False
-3887,False
+3886,True
+3887,True
 3888,False
 3889,False
 3890,False
@@ -4021,7 +4021,7 @@ ID,connected
 4019,True
 4020,True
 4021,True
-4022,False
+4022,True
 4023,False
 4024,False
 4025,False
@@ -4068,7 +4068,7 @@ ID,connected
 4066,True
 4067,True
 4068,True
-4069,False
+4069,True
 4070,False
 4071,False
 4072,False
@@ -4104,7 +4104,7 @@ ID,connected
 4102,False
 4103,True
 4104,True
-4105,False
+4105,True
 4106,False
 4107,False
 4108,True
@@ -4117,7 +4117,7 @@ ID,connected
 4115,True
 4116,True
 4117,True
-4118,False
+4118,True
 4119,False
 4120,False
 4121,False
@@ -4170,7 +4170,7 @@ ID,connected
 4168,True
 4169,True
 4170,True
-4171,False
+4171,True
 4172,False
 4173,False
 4174,False
@@ -4200,8 +4200,8 @@ ID,connected
 4198,True
 4199,True
 4200,True
-4201,False
-4202,False
+4201,True
+4202,True
 4203,False
 4204,False
 4205,False
@@ -4219,7 +4219,7 @@ ID,connected
 4217,False
 4218,False
 4219,False
-4220,False
+4220,True
 4221,False
 4222,False
 4223,False
@@ -4253,7 +4253,7 @@ ID,connected
 4251,True
 4252,True
 4253,True
-4254,False
+4254,True
 4255,False
 4256,False
 4257,False
@@ -4419,7 +4419,7 @@ ID,connected
 4417,True
 4418,True
 4419,True
-4420,False
+4420,True
 4421,False
 4422,False
 4423,False
@@ -4449,7 +4449,7 @@ ID,connected
 4447,False
 4448,True
 4449,True
-4450,True
+4450,False
 4451,False
 4452,False
 4453,False
@@ -4459,9 +4459,9 @@ ID,connected
 4457,False
 4458,True
 4459,True
-4460,False
-4461,False
-4462,False
+4460,True
+4461,True
+4462,True
 4463,False
 4464,False
 4465,False
@@ -4521,14 +4521,14 @@ ID,connected
 4519,False
 4520,False
 4521,True
-4522,False
+4522,True
 4523,False
 4524,False
 4525,False
 4526,False
 4527,False
 4528,False
-4529,False
+4529,True
 4530,False
 4531,False
 4532,False
@@ -4556,7 +4556,7 @@ ID,connected
 4554,False
 4555,True
 4556,True
-4557,False
+4557,True
 4558,False
 4559,False
 4560,False
@@ -4574,7 +4574,7 @@ ID,connected
 4572,True
 4573,True
 4574,True
-4575,False
+4575,True
 4576,False
 4577,False
 4578,False
@@ -4636,7 +4636,7 @@ ID,connected
 4634,True
 4635,True
 4636,True
-4637,False
+4637,True
 4638,False
 4639,False
 4640,False
@@ -4659,7 +4659,7 @@ ID,connected
 4657,False
 4658,True
 4659,True
-4660,False
+4660,True
 4661,False
 4662,False
 4663,False
@@ -4796,7 +4796,7 @@ ID,connected
 4794,False
 4795,False
 4796,False
-4797,False
+4797,True
 4798,False
 4799,False
 4800,False
@@ -4835,7 +4835,7 @@ ID,connected
 4833,False
 4834,False
 4835,False
-4836,False
+4836,True
 4837,False
 4838,True
 4839,False
@@ -4857,7 +4857,7 @@ ID,connected
 4855,True
 4856,False
 4857,False
-4858,False
+4858,True
 4859,True
 4860,True
 4861,False
@@ -4997,9 +4997,9 @@ ID,connected
 4995,True
 4996,True
 4997,True
-4998,False
-4999,False
-5000,False
+4998,True
+4999,True
+5000,True
 5001,False
 5002,False
 5003,False
@@ -5011,7 +5011,7 @@ ID,connected
 5009,True
 5010,True
 5011,True
-5012,True
+5012,False
 5013,False
 5014,False
 5015,False
@@ -5023,7 +5023,7 @@ ID,connected
 5021,True
 5022,True
 5023,True
-5024,False
+5024,True
 5025,False
 5026,False
 5027,False
@@ -5140,7 +5140,7 @@ ID,connected
 5138,False
 5139,True
 5140,True
-5141,False
+5141,True
 5142,True
 5143,True
 5144,True
@@ -5248,7 +5248,7 @@ ID,connected
 5246,True
 5247,True
 5248,True
-5249,False
+5249,True
 5250,False
 5251,False
 5252,False
@@ -5365,7 +5365,7 @@ ID,connected
 5363,True
 5364,True
 5365,True
-5366,False
+5366,True
 5367,False
 5368,False
 5369,True
@@ -5624,7 +5624,7 @@ ID,connected
 5622,True
 5623,True
 5624,True
-5625,False
+5625,True
 5626,False
 5627,False
 5628,False
@@ -5718,7 +5718,7 @@ ID,connected
 5716,True
 5717,True
 5718,True
-5719,False
+5719,True
 5720,False
 5721,False
 5722,False
@@ -5856,7 +5856,7 @@ ID,connected
 5854,True
 5855,False
 5856,False
-5857,False
+5857,True
 5858,False
 5859,False
 5860,False
@@ -5875,7 +5875,7 @@ ID,connected
 5873,False
 5874,False
 5875,False
-5876,False
+5876,True
 5877,False
 5878,False
 5879,False
@@ -5901,7 +5901,7 @@ ID,connected
 5899,True
 5900,True
 5901,True
-5902,False
+5902,True
 5903,False
 5904,False
 5905,False
@@ -5977,7 +5977,7 @@ ID,connected
 5975,False
 5976,True
 5977,True
-5978,False
+5978,True
 5979,False
 5980,True
 5981,True
@@ -6031,8 +6031,8 @@ ID,connected
 6029,True
 6030,True
 6031,True
-6032,False
-6033,False
+6032,True
+6033,True
 6034,False
 6035,False
 6036,False
@@ -6055,7 +6055,7 @@ ID,connected
 6053,True
 6054,True
 6055,True
-6056,False
+6056,True
 6057,False
 6058,False
 6059,False
@@ -6101,7 +6101,7 @@ ID,connected
 6099,False
 6100,True
 6101,True
-6102,False
+6102,True
 6103,False
 6104,False
 6105,True
@@ -6112,7 +6112,7 @@ ID,connected
 6110,False
 6111,False
 6112,True
-6113,False
+6113,True
 6114,False
 6115,False
 6116,True
@@ -6126,7 +6126,7 @@ ID,connected
 6124,False
 6125,False
 6126,True
-6127,False
+6127,True
 6128,True
 6129,True
 6130,False
@@ -6145,7 +6145,7 @@ ID,connected
 6143,True
 6144,True
 6145,True
-6146,False
+6146,True
 6147,False
 6148,False
 6149,False
@@ -6204,7 +6204,7 @@ ID,connected
 6202,False
 6203,True
 6204,True
-6205,False
+6205,True
 6206,False
 6207,False
 6208,False
@@ -6324,7 +6324,7 @@ ID,connected
 6322,False
 6323,False
 6324,False
-6325,False
+6325,True
 6326,True
 6327,True
 6328,True
@@ -6342,7 +6342,7 @@ ID,connected
 6340,False
 6341,True
 6342,True
-6343,False
+6343,True
 6344,False
 6345,False
 6346,False
@@ -6390,9 +6390,9 @@ ID,connected
 6388,True
 6389,True
 6390,True
-6391,False
-6392,False
-6393,False
+6391,True
+6392,True
+6393,True
 6394,False
 6395,False
 6396,False
@@ -6406,7 +6406,7 @@ ID,connected
 6404,False
 6405,True
 6406,True
-6407,True
+6407,False
 6408,False
 6409,False
 6410,False
@@ -6419,7 +6419,7 @@ ID,connected
 6417,False
 6418,False
 6419,True
-6420,False
+6420,True
 6421,False
 6422,False
 6423,False
@@ -6453,7 +6453,7 @@ ID,connected
 6451,True
 6452,True
 6453,True
-6454,False
+6454,True
 6455,False
 6456,False
 6457,False
@@ -6483,7 +6483,7 @@ ID,connected
 6481,True
 6482,True
 6483,True
-6484,False
+6484,True
 6485,False
 6486,False
 6487,False
@@ -6508,17 +6508,17 @@ ID,connected
 6506,False
 6507,True
 6508,True
-6509,False
+6509,True
 6510,False
 6511,False
 6512,True
 6513,True
-6514,False
+6514,True
 6515,False
 6516,False
 6517,False
 6518,False
-6519,False
+6519,True
 6520,False
 6521,False
 6522,True
@@ -6566,7 +6566,7 @@ ID,connected
 6564,True
 6565,True
 6566,True
-6567,False
+6567,True
 6568,False
 6569,False
 6570,False
@@ -6618,8 +6618,8 @@ ID,connected
 6616,True
 6617,True
 6618,True
-6619,False
-6620,False
+6619,True
+6620,True
 6621,False
 6622,False
 6623,False
@@ -6702,7 +6702,7 @@ ID,connected
 6700,False
 6701,True
 6702,True
-6703,False
+6703,True
 6704,False
 6705,False
 6706,False
@@ -6759,7 +6759,7 @@ ID,connected
 6757,True
 6758,True
 6759,True
-6760,False
+6760,True
 6761,False
 6762,False
 6763,False
@@ -6952,7 +6952,7 @@ ID,connected
 6950,True
 6951,False
 6952,True
-6953,False
+6953,True
 6954,False
 6955,False
 6956,False
@@ -6993,7 +6993,7 @@ ID,connected
 6991,False
 6992,True
 6993,True
-6994,False
+6994,True
 6995,False
 6996,False
 6997,False
@@ -7020,7 +7020,7 @@ ID,connected
 7018,True
 7019,True
 7020,True
-7021,False
+7021,True
 7022,False
 7023,False
 7024,False
@@ -7140,7 +7140,7 @@ ID,connected
 7138,True
 7139,True
 7140,True
-7141,False
+7141,True
 7142,False
 7143,False
 7144,False
@@ -7198,8 +7198,8 @@ ID,connected
 7196,True
 7197,True
 7198,True
-7199,False
-7200,False
+7199,True
+7200,True
 7201,False
 7202,False
 7203,False
@@ -7239,7 +7239,7 @@ ID,connected
 7237,True
 7238,True
 7239,True
-7240,False
+7240,True
 7241,False
 7242,False
 7243,False
@@ -7257,7 +7257,7 @@ ID,connected
 7255,False
 7256,True
 7257,True
-7258,False
+7258,True
 7259,False
 7260,False
 7261,True
@@ -7300,7 +7300,7 @@ ID,connected
 7298,False
 7299,True
 7300,True
-7301,False
+7301,True
 7302,False
 7303,False
 7304,False
@@ -7331,7 +7331,7 @@ ID,connected
 7329,True
 7330,True
 7331,True
-7332,False
+7332,True
 7333,False
 7334,False
 7335,False
@@ -7433,7 +7433,7 @@ ID,connected
 7431,False
 7432,True
 7433,True
-7434,False
+7434,True
 7435,False
 7436,False
 7437,False
@@ -7453,7 +7453,7 @@ ID,connected
 7451,True
 7452,True
 7453,True
-7454,False
+7454,True
 7455,False
 7456,False
 7457,False
@@ -7513,7 +7513,7 @@ ID,connected
 7511,False
 7512,False
 7513,True
-7514,False
+7514,True
 7515,False
 7516,False
 7517,False
@@ -7553,7 +7553,7 @@ ID,connected
 7551,True
 7552,True
 7553,True
-7554,False
+7554,True
 7555,False
 7556,False
 7557,False
@@ -7677,7 +7677,7 @@ ID,connected
 7675,False
 7676,False
 7677,False
-7678,False
+7678,True
 7679,False
 7680,False
 7681,False
@@ -7714,7 +7714,7 @@ ID,connected
 7712,False
 7713,True
 7714,True
-7715,False
+7715,True
 7716,False
 7717,False
 7718,False
@@ -7762,7 +7762,7 @@ ID,connected
 7760,True
 7761,True
 7762,True
-7763,False
+7763,True
 7764,False
 7765,False
 7766,False
@@ -7809,7 +7809,7 @@ ID,connected
 7807,True
 7808,True
 7809,True
-7810,False
+7810,True
 7811,False
 7812,False
 7813,False
@@ -7875,7 +7875,7 @@ ID,connected
 7873,True
 7874,True
 7875,True
-7876,False
+7876,True
 7877,False
 7878,False
 7879,False
@@ -7893,7 +7893,7 @@ ID,connected
 7891,False
 7892,False
 7893,True
-7894,False
+7894,True
 7895,False
 7896,False
 7897,False
@@ -7966,9 +7966,9 @@ ID,connected
 7964,True
 7965,True
 7966,True
-7967,False
-7968,False
-7969,False
+7967,True
+7968,True
+7969,True
 7970,False
 7971,False
 7972,False
@@ -7991,7 +7991,7 @@ ID,connected
 7989,True
 7990,True
 7991,True
-7992,False
+7992,True
 7993,False
 7994,False
 7995,False
@@ -8136,7 +8136,7 @@ ID,connected
 8134,False
 8135,True
 8136,True
-8137,False
+8137,True
 8138,False
 8139,False
 8140,True
@@ -8149,7 +8149,7 @@ ID,connected
 8147,True
 8148,True
 8149,True
-8150,False
+8150,True
 8151,False
 8152,False
 8153,False
@@ -8222,7 +8222,7 @@ ID,connected
 8220,False
 8221,True
 8222,True
-8223,False
+8223,True
 8224,False
 8225,False
 8226,False
@@ -8293,7 +8293,7 @@ ID,connected
 8291,True
 8292,True
 8293,True
-8294,False
+8294,True
 8295,False
 8296,True
 8297,False
@@ -8388,7 +8388,7 @@ ID,connected
 8386,True
 8387,True
 8388,True
-8389,False
+8389,True
 8390,False
 8391,False
 8392,False
@@ -8403,7 +8403,7 @@ ID,connected
 8401,True
 8402,True
 8403,True
-8404,False
+8404,True
 8405,False
 8406,False
 8407,False
@@ -8452,7 +8452,7 @@ ID,connected
 8450,True
 8451,True
 8452,True
-8453,False
+8453,True
 8454,False
 8455,False
 8456,False
@@ -8570,7 +8570,7 @@ ID,connected
 8568,True
 8569,True
 8570,True
-8571,False
+8571,True
 8572,False
 8573,False
 8574,False
@@ -8582,7 +8582,7 @@ ID,connected
 8580,False
 8581,False
 8582,True
-8583,False
+8583,True
 8584,True
 8585,True
 8586,True
@@ -8591,7 +8591,7 @@ ID,connected
 8589,True
 8590,True
 8591,True
-8592,False
+8592,True
 8593,False
 8594,False
 8595,False
@@ -8609,7 +8609,7 @@ ID,connected
 8607,False
 8608,False
 8609,False
-8610,False
+8610,True
 8611,False
 8612,False
 8613,False
@@ -8629,7 +8629,7 @@ ID,connected
 8627,True
 8628,True
 8629,True
-8630,False
+8630,True
 8631,False
 8632,False
 8633,True
@@ -8657,7 +8657,7 @@ ID,connected
 8655,True
 8656,True
 8657,True
-8658,False
+8658,True
 8659,False
 8660,False
 8661,False
@@ -8694,7 +8694,7 @@ ID,connected
 8692,True
 8693,True
 8694,True
-8695,False
+8695,True
 8696,False
 8697,False
 8698,False
@@ -8715,7 +8715,7 @@ ID,connected
 8713,False
 8714,False
 8715,True
-8716,False
+8716,True
 8717,False
 8718,False
 8719,False
@@ -8739,12 +8739,12 @@ ID,connected
 8737,False
 8738,False
 8739,False
-8740,False
+8740,True
 8741,False
 8742,False
 8743,True
-8744,False
-8745,False
+8744,True
+8745,True
 8746,False
 8747,False
 8748,False
@@ -8874,7 +8874,7 @@ ID,connected
 8872,False
 8873,False
 8874,False
-8875,False
+8875,True
 8876,False
 8877,True
 8878,False
@@ -9067,7 +9067,7 @@ ID,connected
 9065,False
 9066,False
 9067,True
-9068,False
+9068,True
 9069,False
 9070,False
 9071,False
@@ -9161,7 +9161,7 @@ ID,connected
 9159,False
 9160,True
 9161,True
-9162,False
+9162,True
 9163,False
 9164,False
 9165,False
@@ -9198,7 +9198,7 @@ ID,connected
 9196,False
 9197,False
 9198,True
-9199,False
+9199,True
 9200,False
 9201,False
 9202,False
@@ -9215,7 +9215,7 @@ ID,connected
 9213,True
 9214,False
 9215,True
-9216,False
+9216,True
 9217,False
 9218,True
 9219,True
@@ -9239,7 +9239,7 @@ ID,connected
 9237,True
 9238,True
 9239,True
-9240,False
+9240,True
 9241,False
 9242,False
 9243,False
@@ -9255,7 +9255,7 @@ ID,connected
 9253,False
 9254,False
 9255,False
-9256,False
+9256,True
 9257,True
 9258,True
 9259,False
@@ -9291,7 +9291,7 @@ ID,connected
 9289,False
 9290,False
 9291,False
-9292,False
+9292,True
 9293,False
 9294,False
 9295,False
@@ -9495,8 +9495,8 @@ ID,connected
 9493,False
 9494,True
 9495,True
-9496,False
-9497,False
+9496,True
+9497,True
 9498,False
 9499,False
 9500,False
@@ -9538,7 +9538,7 @@ ID,connected
 9536,False
 9537,False
 9538,False
-9539,False
+9539,True
 9540,False
 9541,False
 9542,True
@@ -9580,7 +9580,7 @@ ID,connected
 9578,True
 9579,True
 9580,True
-9581,True
+9581,False
 9582,False
 9583,False
 9584,False
@@ -9636,7 +9636,7 @@ ID,connected
 9634,False
 9635,True
 9636,True
-9637,False
+9637,True
 9638,True
 9639,True
 9640,True
@@ -9657,7 +9657,7 @@ ID,connected
 9655,True
 9656,True
 9657,False
-9658,False
+9658,True
 9659,False
 9660,True
 9661,False
@@ -9672,7 +9672,7 @@ ID,connected
 9670,True
 9671,True
 9672,False
-9673,False
+9673,True
 9674,False
 9675,False
 9676,False
@@ -9754,7 +9754,7 @@ ID,connected
 9752,False
 9753,True
 9754,True
-9755,False
+9755,True
 9756,False
 9757,False
 9758,False
@@ -9820,7 +9820,7 @@ ID,connected
 9818,True
 9819,True
 9820,False
-9821,False
+9821,True
 9822,False
 9823,True
 9824,True
@@ -9873,7 +9873,7 @@ ID,connected
 9871,False
 9872,False
 9873,True
-9874,False
+9874,True
 9875,False
 9876,True
 9877,True
@@ -9898,8 +9898,8 @@ ID,connected
 9896,True
 9897,True
 9898,True
-9899,True
-9900,True
+9899,False
+9900,False
 9901,False
 9902,False
 9903,False
@@ -9939,7 +9939,7 @@ ID,connected
 9937,True
 9938,True
 9939,True
-9940,True
+9940,False
 9941,False
 9942,False
 9943,False
@@ -10057,7 +10057,7 @@ ID,connected
 10055,False
 10056,True
 10057,True
-10058,False
+10058,True
 10059,False
 10060,False
 10061,False
@@ -10105,7 +10105,7 @@ ID,connected
 10103,True
 10104,False
 10105,True
-10106,True
+10106,False
 10107,False
 10108,False
 10109,True
@@ -10158,7 +10158,7 @@ ID,connected
 10156,False
 10157,False
 10158,False
-10159,False
+10159,True
 10160,False
 10161,False
 10162,True
@@ -10179,7 +10179,7 @@ ID,connected
 10177,False
 10178,False
 10179,True
-10180,False
+10180,True
 10181,False
 10182,True
 10183,True
@@ -10200,7 +10200,7 @@ ID,connected
 10198,False
 10199,True
 10200,True
-10201,False
+10201,True
 10202,False
 10203,False
 10204,False
@@ -10214,7 +10214,7 @@ ID,connected
 10212,False
 10213,False
 10214,True
-10215,False
+10215,True
 10216,False
 10217,False
 10218,False
@@ -10223,11 +10223,11 @@ ID,connected
 10221,False
 10222,False
 10223,False
-10224,False
+10224,True
 10225,False
 10226,True
 10227,True
-10228,False
+10228,True
 10229,False
 10230,False
 10231,False
@@ -10260,7 +10260,7 @@ ID,connected
 10258,False
 10259,False
 10260,False
-10261,False
+10261,True
 10262,False
 10263,False
 10264,False
@@ -10299,7 +10299,7 @@ ID,connected
 10297,True
 10298,True
 10299,True
-10300,True
+10300,False
 10301,False
 10302,False
 10303,True
@@ -10357,7 +10357,7 @@ ID,connected
 10355,True
 10356,True
 10357,True
-10358,True
+10358,False
 10359,False
 10360,False
 10361,False
@@ -10575,7 +10575,7 @@ ID,connected
 10573,False
 10574,False
 10575,True
-10576,False
+10576,True
 10577,False
 10578,False
 10579,False
@@ -10620,8 +10620,8 @@ ID,connected
 10618,True
 10619,True
 10620,True
-10621,True
-10622,True
+10621,False
+10622,False
 10623,False
 10624,False
 10625,False
@@ -10685,7 +10685,7 @@ ID,connected
 10683,True
 10684,True
 10685,True
-10686,True
+10686,False
 10687,False
 10688,False
 10689,False
@@ -10755,8 +10755,8 @@ ID,connected
 10753,False
 10754,False
 10755,True
-10756,False
-10757,False
+10756,True
+10757,True
 10758,False
 10759,True
 10760,True
@@ -10805,7 +10805,7 @@ ID,connected
 10803,False
 10804,True
 10805,True
-10806,False
+10806,True
 10807,False
 10808,False
 10809,False
@@ -10856,7 +10856,7 @@ ID,connected
 10854,False
 10855,False
 10856,True
-10857,True
+10857,False
 10858,False
 10859,False
 10860,False
@@ -10882,7 +10882,7 @@ ID,connected
 10880,True
 10881,True
 10882,True
-10883,True
+10883,False
 10884,False
 10885,True
 10886,True
@@ -10940,7 +10940,7 @@ ID,connected
 10938,True
 10939,True
 10940,True
-10941,False
+10941,True
 10942,False
 10943,False
 10944,False
@@ -10976,12 +10976,12 @@ ID,connected
 10974,False
 10975,False
 10976,True
-10977,False
+10977,True
 10978,False
 10979,False
 10980,False
 10981,True
-10982,False
+10982,True
 10983,False
 10984,False
 10985,False
@@ -10995,7 +10995,7 @@ ID,connected
 10993,True
 10994,True
 10995,True
-10996,True
+10996,False
 10997,False
 10998,False
 10999,False
@@ -11037,7 +11037,7 @@ ID,connected
 11035,False
 11036,False
 11037,False
-11038,False
+11038,True
 11039,True
 11040,True
 11041,False
@@ -11051,7 +11051,7 @@ ID,connected
 11049,False
 11050,False
 11051,True
-11052,True
+11052,False
 11053,True
 11054,False
 11055,False
@@ -11067,7 +11067,7 @@ ID,connected
 11065,False
 11066,True
 11067,False
-11068,False
+11068,True
 11069,False
 11070,True
 11071,True
@@ -11125,8 +11125,8 @@ ID,connected
 11123,True
 11124,True
 11125,True
-11126,True
-11127,True
+11126,False
+11127,False
 11128,False
 11129,False
 11130,False
@@ -11151,7 +11151,7 @@ ID,connected
 11149,True
 11150,True
 11151,True
-11152,False
+11152,True
 11153,False
 11154,True
 11155,False
@@ -11190,7 +11190,7 @@ ID,connected
 11188,False
 11189,True
 11190,False
-11191,False
+11191,True
 11192,False
 11193,False
 11194,False
@@ -11235,8 +11235,8 @@ ID,connected
 11233,False
 11234,False
 11235,True
-11236,False
-11237,False
+11236,True
+11237,True
 11238,False
 11239,False
 11240,False
@@ -11269,7 +11269,7 @@ ID,connected
 11267,False
 11268,True
 11269,True
-11270,False
+11270,True
 11271,False
 11272,False
 11273,False
@@ -11287,7 +11287,7 @@ ID,connected
 11285,True
 11286,False
 11287,False
-11288,False
+11288,True
 11289,True
 11290,True
 11291,False
@@ -11330,11 +11330,11 @@ ID,connected
 11328,False
 11329,False
 11330,True
-11331,False
+11331,True
 11332,True
 11333,True
 11334,True
-11335,False
+11335,True
 11336,False
 11337,False
 11338,False
@@ -11411,7 +11411,7 @@ ID,connected
 11409,False
 11410,True
 11411,True
-11412,False
+11412,True
 11413,False
 11414,False
 11415,True
@@ -11446,7 +11446,7 @@ ID,connected
 11444,False
 11445,False
 11446,True
-11447,False
+11447,True
 11448,False
 11449,False
 11450,False
@@ -11485,7 +11485,7 @@ ID,connected
 11483,False
 11484,False
 11485,False
-11486,False
+11486,True
 11487,True
 11488,False
 11489,True
@@ -11509,8 +11509,8 @@ ID,connected
 11507,False
 11508,True
 11509,False
-11510,False
-11511,False
+11510,True
+11511,True
 11512,False
 11513,False
 11514,False
@@ -11565,7 +11565,7 @@ ID,connected
 11563,True
 11564,True
 11565,True
-11566,False
+11566,True
 11567,False
 11568,False
 11569,False
@@ -11748,7 +11748,7 @@ ID,connected
 11746,True
 11747,True
 11748,True
-11749,False
+11749,True
 11750,False
 11751,True
 11752,False
@@ -11762,7 +11762,7 @@ ID,connected
 11760,False
 11761,False
 11762,False
-11763,False
+11763,True
 11764,True
 11765,False
 11766,True
@@ -11811,7 +11811,7 @@ ID,connected
 11809,False
 11810,True
 11811,True
-11812,False
+11812,True
 11813,False
 11814,False
 11815,False
@@ -11835,8 +11835,8 @@ ID,connected
 11833,False
 11834,True
 11835,True
-11836,False
-11837,False
+11836,True
+11837,True
 11838,False
 11839,False
 11840,False
@@ -11854,8 +11854,8 @@ ID,connected
 11852,True
 11853,True
 11854,True
-11855,False
-11856,False
+11855,True
+11856,True
 11857,False
 11858,False
 11859,False
@@ -11885,7 +11885,7 @@ ID,connected
 11883,True
 11884,True
 11885,True
-11886,False
+11886,True
 11887,False
 11888,False
 11889,False
@@ -11909,7 +11909,7 @@ ID,connected
 11907,False
 11908,True
 11909,False
-11910,False
+11910,True
 11911,False
 11912,True
 11913,False
@@ -11988,8 +11988,8 @@ ID,connected
 11986,True
 11987,True
 11988,True
-11989,True
-11990,True
+11989,False
+11990,False
 11991,False
 11992,False
 11993,False
@@ -12036,7 +12036,7 @@ ID,connected
 12034,False
 12035,False
 12036,True
-12037,False
+12037,True
 12038,False
 12039,False
 12040,False
@@ -12090,7 +12090,7 @@ ID,connected
 12088,False
 12089,False
 12090,False
-12091,False
+12091,True
 12092,False
 12093,False
 12094,False
@@ -12100,7 +12100,7 @@ ID,connected
 12098,False
 12099,False
 12100,False
-12101,False
+12101,True
 12102,True
 12103,False
 12104,True
@@ -12113,7 +12113,7 @@ ID,connected
 12111,True
 12112,True
 12113,False
-12114,False
+12114,True
 12115,False
 12116,False
 12117,True
@@ -12125,7 +12125,7 @@ ID,connected
 12123,True
 12124,True
 12125,False
-12126,False
+12126,True
 12127,False
 12128,True
 12129,False
@@ -12298,7 +12298,7 @@ ID,connected
 12296,True
 12297,False
 12298,False
-12299,False
+12299,True
 12300,True
 12301,True
 12302,False
@@ -12328,12 +12328,12 @@ ID,connected
 12326,False
 12327,False
 12328,False
-12329,False
+12329,True
 12330,False
 12331,False
 12332,False
 12333,True
-12334,False
+12334,True
 12335,True
 12336,False
 12337,False
@@ -12362,7 +12362,7 @@ ID,connected
 12360,False
 12361,False
 12362,False
-12363,False
+12363,True
 12364,True
 12365,False
 12366,True
@@ -12503,7 +12503,7 @@ ID,connected
 12501,False
 12502,True
 12503,False
-12504,False
+12504,True
 12505,False
 12506,False
 12507,False
@@ -12554,7 +12554,7 @@ ID,connected
 12552,True
 12553,True
 12554,True
-12555,False
+12555,True
 12556,False
 12557,False
 12558,True
@@ -12562,7 +12562,7 @@ ID,connected
 12560,True
 12561,False
 12562,False
-12563,False
+12563,True
 12564,False
 12565,False
 12566,False
@@ -12585,8 +12585,8 @@ ID,connected
 12583,True
 12584,True
 12585,True
-12586,False
-12587,False
+12586,True
+12587,True
 12588,False
 12589,False
 12590,False
@@ -12663,12 +12663,12 @@ ID,connected
 12661,False
 12662,False
 12663,True
-12664,False
+12664,True
 12665,False
 12666,False
 12667,False
 12668,True
-12669,False
+12669,True
 12670,False
 12671,False
 12672,False
@@ -12710,7 +12710,7 @@ ID,connected
 12708,False
 12709,False
 12710,True
-12711,False
+12711,True
 12712,False
 12713,False
 12714,False
@@ -12732,7 +12732,7 @@ ID,connected
 12730,False
 12731,False
 12732,False
-12733,False
+12733,True
 12734,False
 12735,False
 12736,False
@@ -12770,7 +12770,7 @@ ID,connected
 12768,True
 12769,True
 12770,False
-12771,False
+12771,True
 12772,True
 12773,False
 12774,True
@@ -12799,7 +12799,7 @@ ID,connected
 12797,False
 12798,False
 12799,True
-12800,False
+12800,True
 12801,False
 12802,False
 12803,True
@@ -12810,7 +12810,7 @@ ID,connected
 12808,False
 12809,False
 12810,False
-12811,False
+12811,True
 12812,True
 12813,True
 12814,True
@@ -12850,7 +12850,7 @@ ID,connected
 12848,False
 12849,False
 12850,False
-12851,False
+12851,True
 12852,False
 12853,False
 12854,True
@@ -13021,7 +13021,7 @@ ID,connected
 13019,False
 13020,False
 13021,True
-13022,False
+13022,True
 13023,False
 13024,False
 13025,False
@@ -13029,7 +13029,7 @@ ID,connected
 13027,False
 13028,True
 13029,False
-13030,False
+13030,True
 13031,False
 13032,False
 13033,False
@@ -13096,7 +13096,7 @@ ID,connected
 13094,False
 13095,True
 13096,True
-13097,False
+13097,True
 13098,False
 13099,False
 13100,True
@@ -13141,12 +13141,12 @@ ID,connected
 13139,True
 13140,True
 13141,True
-13142,False
+13142,True
 13143,False
 13144,False
 13145,False
 13146,True
-13147,False
+13147,True
 13148,False
 13149,True
 13150,True
@@ -13167,7 +13167,7 @@ ID,connected
 13165,False
 13166,True
 13167,True
-13168,False
+13168,True
 13169,False
 13170,False
 13171,True
@@ -13182,8 +13182,8 @@ ID,connected
 13180,False
 13181,False
 13182,False
-13183,True
-13184,False
+13183,False
+13184,True
 13185,True
 13186,False
 13187,True
@@ -13227,7 +13227,7 @@ ID,connected
 13225,False
 13226,False
 13227,True
-13228,False
+13228,True
 13229,True
 13230,True
 13231,True
@@ -13311,7 +13311,7 @@ ID,connected
 13309,True
 13310,False
 13311,False
-13312,True
+13312,False
 13313,False
 13314,True
 13315,True
@@ -13336,9 +13336,9 @@ ID,connected
 13334,True
 13335,False
 13336,True
-13337,False
-13338,False
-13339,False
+13337,True
+13338,True
+13339,True
 13340,False
 13341,False
 13342,False
@@ -13390,7 +13390,7 @@ ID,connected
 13388,True
 13389,True
 13390,True
-13391,False
+13391,True
 13392,False
 13393,False
 13394,True
@@ -13424,7 +13424,7 @@ ID,connected
 13422,False
 13423,True
 13424,True
-13425,False
+13425,True
 13426,False
 13427,False
 13428,False
@@ -13469,7 +13469,7 @@ ID,connected
 13467,False
 13468,False
 13469,True
-13470,False
+13470,True
 13471,False
 13472,True
 13473,True
@@ -13505,7 +13505,7 @@ ID,connected
 13503,True
 13504,False
 13505,True
-13506,False
+13506,True
 13507,False
 13508,False
 13509,False
@@ -13566,7 +13566,7 @@ ID,connected
 13564,False
 13565,False
 13566,False
-13567,True
+13567,False
 13568,True
 13569,True
 13570,True
@@ -13623,7 +13623,7 @@ ID,connected
 13621,False
 13622,True
 13623,True
-13624,False
+13624,True
 13625,False
 13626,False
 13627,False
@@ -13689,7 +13689,7 @@ ID,connected
 13687,False
 13688,False
 13689,True
-13690,False
+13690,True
 13691,False
 13692,True
 13693,False
@@ -13704,7 +13704,7 @@ ID,connected
 13702,False
 13703,False
 13704,False
-13705,True
+13705,False
 13706,False
 13707,False
 13708,False
@@ -13854,7 +13854,7 @@ ID,connected
 13852,False
 13853,True
 13854,False
-13855,False
+13855,True
 13856,False
 13857,False
 13858,False
@@ -13875,8 +13875,8 @@ ID,connected
 13873,False
 13874,False
 13875,True
-13876,False
-13877,False
+13876,True
+13877,True
 13878,False
 13879,False
 13880,False
@@ -13910,7 +13910,7 @@ ID,connected
 13908,True
 13909,False
 13910,False
-13911,False
+13911,True
 13912,False
 13913,False
 13914,True
@@ -13942,7 +13942,7 @@ ID,connected
 13940,False
 13941,False
 13942,False
-13943,False
+13943,True
 13944,True
 13945,True
 13946,False
@@ -13969,7 +13969,7 @@ ID,connected
 13967,False
 13968,True
 13969,True
-13970,False
+13970,True
 13971,False
 13972,True
 13973,False
@@ -13997,7 +13997,7 @@ ID,connected
 13995,False
 13996,False
 13997,True
-13998,False
+13998,True
 13999,False
 14000,False
 14001,False
@@ -14041,7 +14041,7 @@ ID,connected
 14039,False
 14040,False
 14041,False
-14042,False
+14042,True
 14043,True
 14044,True
 14045,False
@@ -14050,7 +14050,7 @@ ID,connected
 14048,False
 14049,False
 14050,False
-14051,False
+14051,True
 14052,False
 14053,True
 14054,True
@@ -14065,7 +14065,7 @@ ID,connected
 14063,False
 14064,True
 14065,False
-14066,False
+14066,True
 14067,False
 14068,False
 14069,True
@@ -14106,7 +14106,7 @@ ID,connected
 14104,False
 14105,False
 14106,True
-14107,False
+14107,True
 14108,False
 14109,False
 14110,False
@@ -14134,7 +14134,7 @@ ID,connected
 14132,True
 14133,True
 14134,False
-14135,False
+14135,True
 14136,True
 14137,False
 14138,False
@@ -14156,13 +14156,13 @@ ID,connected
 14154,False
 14155,True
 14156,False
-14157,True
+14157,False
 14158,False
 14159,True
 14160,True
 14161,False
 14162,True
-14163,False
+14163,True
 14164,False
 14165,False
 14166,True
@@ -14207,7 +14207,7 @@ ID,connected
 14205,False
 14206,False
 14207,False
-14208,False
+14208,True
 14209,False
 14210,False
 14211,True
@@ -14216,7 +14216,7 @@ ID,connected
 14214,False
 14215,True
 14216,True
-14217,False
+14217,True
 14218,False
 14219,True
 14220,False
@@ -14293,7 +14293,7 @@ ID,connected
 14291,False
 14292,False
 14293,False
-14294,False
+14294,True
 14295,False
 14296,False
 14297,True
@@ -14320,7 +14320,7 @@ ID,connected
 14318,True
 14319,False
 14320,False
-14321,False
+14321,True
 14322,False
 14323,True
 14324,True
@@ -14576,7 +14576,7 @@ ID,connected
 14574,True
 14575,False
 14576,False
-14577,False
+14577,True
 14578,True
 14579,True
 14580,True
@@ -14585,12 +14585,12 @@ ID,connected
 14583,False
 14584,False
 14585,False
-14586,False
+14586,True
 14587,True
 14588,False
 14589,False
-14590,False
-14591,False
+14590,True
+14591,True
 14592,True
 14593,False
 14594,False
@@ -14641,7 +14641,7 @@ ID,connected
 14639,False
 14640,False
 14641,False
-14642,False
+14642,True
 14643,False
 14644,False
 14645,True
@@ -14649,7 +14649,7 @@ ID,connected
 14647,False
 14648,True
 14649,True
-14650,False
+14650,True
 14651,False
 14652,False
 14653,False
@@ -14666,14 +14666,14 @@ ID,connected
 14664,False
 14665,True
 14666,True
-14667,False
+14667,True
 14668,False
 14669,False
 14670,False
 14671,True
 14672,True
 14673,True
-14674,False
+14674,True
 14675,False
 14676,False
 14677,False
@@ -14688,7 +14688,7 @@ ID,connected
 14686,True
 14687,True
 14688,False
-14689,False
+14689,True
 14690,True
 14691,False
 14692,False
@@ -14821,7 +14821,7 @@ ID,connected
 14819,True
 14820,False
 14821,False
-14822,False
+14822,True
 14823,False
 14824,False
 14825,True
@@ -14869,10 +14869,10 @@ ID,connected
 14867,False
 14868,False
 14869,False
-14870,False
+14870,True
 14871,False
 14872,True
-14873,False
+14873,True
 14874,False
 14875,False
 14876,False
@@ -14902,7 +14902,7 @@ ID,connected
 14900,True
 14901,False
 14902,True
-14903,False
+14903,True
 14904,False
 14905,False
 14906,True
@@ -14910,7 +14910,7 @@ ID,connected
 14908,True
 14909,False
 14910,False
-14911,False
+14911,True
 14912,False
 14913,False
 14914,False
@@ -14931,7 +14931,7 @@ ID,connected
 14929,True
 14930,False
 14931,False
-14932,False
+14932,True
 14933,False
 14934,False
 14935,False
@@ -14965,8 +14965,8 @@ ID,connected
 14963,False
 14964,False
 14965,True
-14966,False
-14967,False
+14966,True
+14967,True
 14968,False
 14969,False
 14970,True
@@ -15030,7 +15030,7 @@ ID,connected
 15028,True
 15029,True
 15030,True
-15031,False
+15031,True
 15032,False
 15033,False
 15034,False
@@ -15059,7 +15059,7 @@ ID,connected
 15057,False
 15058,True
 15059,True
-15060,False
+15060,True
 15061,False
 15062,True
 15063,True
@@ -15093,7 +15093,7 @@ ID,connected
 15091,False
 15092,False
 15093,True
-15094,False
+15094,True
 15095,False
 15096,False
 15097,False
@@ -15101,7 +15101,7 @@ ID,connected
 15099,False
 15100,True
 15101,False
-15102,False
+15102,True
 15103,True
 15104,False
 15105,True
@@ -15165,7 +15165,7 @@ ID,connected
 15163,False
 15164,True
 15165,False
-15166,False
+15166,True
 15167,False
 15168,False
 15169,False
@@ -15174,7 +15174,7 @@ ID,connected
 15172,True
 15173,True
 15174,True
-15175,False
+15175,True
 15176,True
 15177,False
 15178,False
@@ -15206,7 +15206,7 @@ ID,connected
 15204,False
 15205,False
 15206,False
-15207,False
+15207,True
 15208,False
 15209,False
 15210,True
@@ -15231,7 +15231,7 @@ ID,connected
 15229,True
 15230,True
 15231,True
-15232,False
+15232,True
 15233,False
 15234,False
 15235,False
@@ -15246,8 +15246,8 @@ ID,connected
 15244,True
 15245,True
 15246,True
-15247,False
-15248,False
+15247,True
+15248,True
 15249,False
 15250,False
 15251,False
@@ -15281,7 +15281,7 @@ ID,connected
 15279,False
 15280,False
 15281,False
-15282,False
+15282,True
 15283,True
 15284,False
 15285,False
@@ -15305,7 +15305,7 @@ ID,connected
 15303,True
 15304,False
 15305,False
-15306,False
+15306,True
 15307,True
 15308,False
 15309,True
@@ -15334,7 +15334,7 @@ ID,connected
 15332,False
 15333,False
 15334,True
-15335,False
+15335,True
 15336,False
 15337,False
 15338,False
@@ -15391,7 +15391,7 @@ ID,connected
 15389,False
 15390,False
 15391,False
-15392,False
+15392,True
 15393,False
 15394,True
 15395,True
@@ -15449,7 +15449,7 @@ ID,connected
 15447,False
 15448,False
 15449,False
-15450,False
+15450,True
 15451,False
 15452,False
 15453,False
@@ -15460,7 +15460,7 @@ ID,connected
 15458,False
 15459,False
 15460,False
-15461,False
+15461,True
 15462,True
 15463,True
 15464,False
@@ -15470,7 +15470,7 @@ ID,connected
 15468,True
 15469,False
 15470,True
-15471,True
+15471,False
 15472,False
 15473,False
 15474,False
@@ -15490,7 +15490,7 @@ ID,connected
 15488,True
 15489,True
 15490,True
-15491,False
+15491,True
 15492,False
 15493,False
 15494,False
@@ -15510,7 +15510,7 @@ ID,connected
 15508,True
 15509,True
 15510,True
-15511,False
+15511,True
 15512,False
 15513,False
 15514,False
@@ -15523,7 +15523,7 @@ ID,connected
 15521,False
 15522,False
 15523,False
-15524,False
+15524,True
 15525,False
 15526,False
 15527,False
@@ -15532,7 +15532,7 @@ ID,connected
 15530,True
 15531,True
 15532,True
-15533,False
+15533,True
 15534,False
 15535,False
 15536,False
@@ -15637,7 +15637,7 @@ ID,connected
 15635,False
 15636,False
 15637,False
-15638,False
+15638,True
 15639,False
 15640,True
 15641,True
@@ -15756,7 +15756,7 @@ ID,connected
 15754,False
 15755,False
 15756,False
-15757,False
+15757,True
 15758,True
 15759,True
 15760,True
@@ -15811,7 +15811,7 @@ ID,connected
 15809,True
 15810,True
 15811,True
-15812,False
+15812,True
 15813,False
 15814,False
 15815,False
@@ -15840,7 +15840,7 @@ ID,connected
 15838,False
 15839,False
 15840,False
-15841,False
+15841,True
 15842,False
 15843,False
 15844,False
@@ -15853,7 +15853,7 @@ ID,connected
 15851,False
 15852,True
 15853,True
-15854,False
+15854,True
 15855,False
 15856,False
 15857,True
@@ -15881,7 +15881,7 @@ ID,connected
 15879,True
 15880,False
 15881,False
-15882,False
+15882,True
 15883,False
 15884,True
 15885,True
@@ -15898,7 +15898,7 @@ ID,connected
 15896,True
 15897,True
 15898,True
-15899,False
+15899,True
 15900,False
 15901,False
 15902,False
@@ -15941,7 +15941,7 @@ ID,connected
 15939,False
 15940,False
 15941,False
-15942,False
+15942,True
 15943,False
 15944,False
 15945,False
@@ -16093,7 +16093,7 @@ ID,connected
 16091,True
 16092,True
 16093,True
-16094,False
+16094,True
 16095,False
 16096,True
 16097,True
@@ -16117,7 +16117,7 @@ ID,connected
 16115,False
 16116,False
 16117,False
-16118,False
+16118,True
 16119,False
 16120,False
 16121,False
@@ -16283,7 +16283,7 @@ ID,connected
 16281,False
 16282,True
 16283,True
-16284,False
+16284,True
 16285,False
 16286,False
 16287,False
@@ -16419,7 +16419,7 @@ ID,connected
 16417,False
 16418,False
 16419,True
-16420,False
+16420,True
 16421,False
 16422,False
 16423,False
@@ -16429,7 +16429,7 @@ ID,connected
 16427,False
 16428,False
 16429,False
-16430,False
+16430,True
 16431,False
 16432,False
 16433,False
@@ -16559,13 +16559,13 @@ ID,connected
 16557,False
 16558,False
 16559,False
-16560,False
+16560,True
 16561,False
 16562,False
 16563,True
 16564,False
 16565,True
-16566,False
+16566,True
 16567,False
 16568,True
 16569,True
@@ -16609,7 +16609,7 @@ ID,connected
 16607,False
 16608,True
 16609,True
-16610,True
+16610,False
 16611,False
 16612,False
 16613,True
@@ -16711,7 +16711,7 @@ ID,connected
 16709,False
 16710,False
 16711,False
-16712,True
+16712,False
 16713,False
 16714,False
 16715,True
@@ -16804,7 +16804,7 @@ ID,connected
 16802,True
 16803,False
 16804,True
-16805,False
+16805,True
 16806,True
 16807,False
 16808,False
@@ -16816,7 +16816,7 @@ ID,connected
 16814,False
 16815,False
 16816,True
-16817,False
+16817,True
 16818,False
 16819,True
 16820,False
@@ -16868,7 +16868,7 @@ ID,connected
 16866,False
 16867,False
 16868,True
-16869,False
+16869,True
 16870,False
 16871,False
 16872,True
@@ -16891,7 +16891,7 @@ ID,connected
 16889,True
 16890,False
 16891,False
-16892,False
+16892,True
 16893,False
 16894,False
 16895,False
@@ -16920,7 +16920,7 @@ ID,connected
 16918,False
 16919,False
 16920,True
-16921,False
+16921,True
 16922,False
 16923,False
 16924,False
@@ -16931,7 +16931,7 @@ ID,connected
 16929,False
 16930,True
 16931,True
-16932,False
+16932,True
 16933,False
 16934,True
 16935,True
@@ -16941,7 +16941,7 @@ ID,connected
 16939,False
 16940,False
 16941,True
-16942,False
+16942,True
 16943,True
 16944,False
 16945,True
@@ -17054,7 +17054,7 @@ ID,connected
 17052,True
 17053,True
 17054,True
-17055,False
+17055,True
 17056,False
 17057,False
 17058,True
@@ -17150,11 +17150,11 @@ ID,connected
 17148,True
 17149,True
 17150,False
-17151,False
+17151,True
 17152,True
 17153,False
 17154,False
-17155,False
+17155,True
 17156,False
 17157,False
 17158,True
@@ -17165,11 +17165,11 @@ ID,connected
 17163,False
 17164,False
 17165,False
-17166,False
+17166,True
 17167,False
 17168,False
 17169,False
-17170,False
+17170,True
 17171,True
 17172,True
 17173,True
@@ -17210,7 +17210,7 @@ ID,connected
 17208,False
 17209,True
 17210,True
-17211,False
+17211,True
 17212,False
 17213,True
 17214,True
@@ -17218,7 +17218,7 @@ ID,connected
 17216,False
 17217,False
 17218,True
-17219,False
+17219,True
 17220,False
 17221,True
 17222,True
@@ -17280,7 +17280,7 @@ ID,connected
 17278,True
 17279,False
 17280,False
-17281,False
+17281,True
 17282,False
 17283,False
 17284,False
@@ -17308,7 +17308,7 @@ ID,connected
 17306,True
 17307,False
 17308,False
-17309,False
+17309,True
 17310,False
 17311,True
 17312,False
@@ -17321,7 +17321,7 @@ ID,connected
 17319,False
 17320,False
 17321,False
-17322,False
+17322,True
 17323,False
 17324,True
 17325,False
@@ -17343,7 +17343,7 @@ ID,connected
 17341,True
 17342,False
 17343,True
-17344,True
+17344,False
 17345,False
 17346,False
 17347,False
@@ -17525,7 +17525,7 @@ ID,connected
 17523,True
 17524,False
 17525,False
-17526,False
+17526,True
 17527,False
 17528,False
 17529,False
@@ -17586,7 +17586,7 @@ ID,connected
 17584,False
 17585,True
 17586,False
-17587,False
+17587,True
 17588,False
 17589,True
 17590,False
@@ -17611,7 +17611,7 @@ ID,connected
 17609,True
 17610,True
 17611,True
-17612,False
+17612,True
 17613,False
 17614,False
 17615,False
@@ -17653,7 +17653,7 @@ ID,connected
 17651,False
 17652,False
 17653,False
-17654,False
+17654,True
 17655,False
 17656,False
 17657,False
@@ -17771,7 +17771,7 @@ ID,connected
 17769,False
 17770,True
 17771,False
-17772,False
+17772,True
 17773,True
 17774,True
 17775,True
@@ -17791,7 +17791,7 @@ ID,connected
 17789,True
 17790,False
 17791,False
-17792,False
+17792,True
 17793,False
 17794,False
 17795,True
@@ -17827,7 +17827,7 @@ ID,connected
 17825,False
 17826,True
 17827,True
-17828,False
+17828,True
 17829,False
 17830,False
 17831,False
@@ -17914,7 +17914,7 @@ ID,connected
 17912,False
 17913,True
 17914,True
-17915,True
+17915,False
 17916,False
 17917,False
 17918,False
@@ -17969,7 +17969,7 @@ ID,connected
 17967,False
 17968,False
 17969,True
-17970,False
+17970,True
 17971,False
 17972,False
 17973,False
@@ -17983,7 +17983,7 @@ ID,connected
 17981,False
 17982,False
 17983,True
-17984,False
+17984,True
 17985,False
 17986,False
 17987,False
@@ -17991,7 +17991,7 @@ ID,connected
 17989,False
 17990,True
 17991,False
-17992,False
+17992,True
 17993,False
 17994,False
 17995,True
@@ -18073,7 +18073,7 @@ ID,connected
 18071,True
 18072,False
 18073,False
-18074,False
+18074,True
 18075,True
 18076,True
 18077,True
@@ -18091,7 +18091,7 @@ ID,connected
 18089,True
 18090,True
 18091,True
-18092,False
+18092,True
 18093,False
 18094,False
 18095,False
@@ -18191,7 +18191,7 @@ ID,connected
 18189,False
 18190,False
 18191,True
-18192,False
+18192,True
 18193,True
 18194,True
 18195,True
@@ -18276,7 +18276,7 @@ ID,connected
 18274,False
 18275,True
 18276,True
-18277,False
+18277,True
 18278,False
 18279,False
 18280,False
@@ -18316,10 +18316,10 @@ ID,connected
 18314,False
 18315,False
 18316,False
-18317,False
+18317,True
 18318,False
 18319,True
-18320,True
+18320,False
 18321,False
 18322,False
 18323,True
@@ -18330,7 +18330,7 @@ ID,connected
 18328,False
 18329,False
 18330,False
-18331,False
+18331,True
 18332,False
 18333,False
 18334,False
@@ -18371,7 +18371,7 @@ ID,connected
 18369,False
 18370,False
 18371,True
-18372,False
+18372,True
 18373,False
 18374,True
 18375,True
@@ -18385,7 +18385,7 @@ ID,connected
 18383,False
 18384,False
 18385,False
-18386,False
+18386,True
 18387,False
 18388,False
 18389,False
@@ -18410,7 +18410,7 @@ ID,connected
 18408,False
 18409,False
 18410,True
-18411,False
+18411,True
 18412,True
 18413,True
 18414,False
@@ -18428,8 +18428,8 @@ ID,connected
 18426,False
 18427,True
 18428,True
-18429,False
-18430,False
+18429,True
+18430,True
 18431,False
 18432,False
 18433,False
@@ -18577,7 +18577,7 @@ ID,connected
 18575,False
 18576,False
 18577,True
-18578,False
+18578,True
 18579,False
 18580,False
 18581,True
@@ -18636,9 +18636,9 @@ ID,connected
 18634,True
 18635,True
 18636,True
-18637,False
-18638,False
-18639,False
+18637,True
+18638,True
+18639,True
 18640,False
 18641,True
 18642,False
@@ -18687,7 +18687,7 @@ ID,connected
 18685,True
 18686,True
 18687,True
-18688,False
+18688,True
 18689,False
 18690,False
 18691,False
@@ -18780,7 +18780,7 @@ ID,connected
 18778,True
 18779,False
 18780,False
-18781,False
+18781,True
 18782,False
 18783,False
 18784,False
@@ -18816,7 +18816,7 @@ ID,connected
 18814,False
 18815,False
 18816,True
-18817,False
+18817,True
 18818,False
 18819,False
 18820,False
@@ -18837,7 +18837,7 @@ ID,connected
 18835,False
 18836,False
 18837,False
-18838,False
+18838,True
 18839,False
 18840,True
 18841,True
@@ -18869,7 +18869,7 @@ ID,connected
 18867,True
 18868,True
 18869,False
-18870,False
+18870,True
 18871,True
 18872,True
 18873,False
@@ -18882,7 +18882,7 @@ ID,connected
 18880,True
 18881,False
 18882,False
-18883,False
+18883,True
 18884,False
 18885,False
 18886,False
@@ -19033,7 +19033,7 @@ ID,connected
 19031,False
 19032,False
 19033,False
-19034,False
+19034,True
 19035,False
 19036,False
 19037,True
@@ -19079,7 +19079,7 @@ ID,connected
 19077,False
 19078,True
 19079,True
-19080,False
+19080,True
 19081,False
 19082,False
 19083,True
@@ -19095,7 +19095,7 @@ ID,connected
 19093,True
 19094,False
 19095,False
-19096,False
+19096,True
 19097,False
 19098,True
 19099,False
@@ -19125,7 +19125,7 @@ ID,connected
 19123,False
 19124,False
 19125,False
-19126,False
+19126,True
 19127,False
 19128,False
 19129,True
@@ -19164,7 +19164,7 @@ ID,connected
 19162,True
 19163,True
 19164,True
-19165,False
+19165,True
 19166,False
 19167,False
 19168,True
@@ -19191,7 +19191,7 @@ ID,connected
 19189,False
 19190,False
 19191,False
-19192,False
+19192,True
 19193,False
 19194,False
 19195,False
@@ -19215,7 +19215,7 @@ ID,connected
 19213,False
 19214,True
 19215,False
-19216,False
+19216,True
 19217,True
 19218,False
 19219,False
@@ -19238,7 +19238,7 @@ ID,connected
 19236,True
 19237,False
 19238,False
-19239,False
+19239,True
 19240,True
 19241,False
 19242,True
@@ -19284,7 +19284,7 @@ ID,connected
 19282,False
 19283,False
 19284,True
-19285,False
+19285,True
 19286,False
 19287,False
 19288,True
@@ -19392,7 +19392,7 @@ ID,connected
 19390,False
 19391,False
 19392,True
-19393,False
+19393,True
 19394,False
 19395,False
 19396,True
@@ -19443,7 +19443,7 @@ ID,connected
 19441,True
 19442,False
 19443,True
-19444,False
+19444,True
 19445,False
 19446,False
 19447,False
@@ -19493,7 +19493,7 @@ ID,connected
 19491,False
 19492,True
 19493,True
-19494,False
+19494,True
 19495,False
 19496,False
 19497,False
@@ -19682,7 +19682,7 @@ ID,connected
 19680,False
 19681,True
 19682,True
-19683,False
+19683,True
 19684,False
 19685,True
 19686,False
@@ -19745,7 +19745,7 @@ ID,connected
 19743,False
 19744,False
 19745,True
-19746,False
+19746,True
 19747,False
 19748,False
 19749,False
@@ -19876,7 +19876,7 @@ ID,connected
 19874,False
 19875,True
 19876,True
-19877,False
+19877,True
 19878,False
 19879,False
 19880,True
@@ -19893,7 +19893,7 @@ ID,connected
 19891,False
 19892,True
 19893,True
-19894,False
+19894,True
 19895,False
 19896,False
 19897,False
@@ -19916,7 +19916,7 @@ ID,connected
 19914,True
 19915,False
 19916,False
-19917,False
+19917,True
 19918,True
 19919,True
 19920,True
@@ -19941,7 +19941,7 @@ ID,connected
 19939,True
 19940,False
 19941,False
-19942,False
+19942,True
 19943,False
 19944,True
 19945,True
@@ -20009,7 +20009,7 @@ ID,connected
 20007,True
 20008,True
 20009,True
-20010,False
+20010,True
 20011,False
 20012,False
 20013,False
@@ -20024,8 +20024,8 @@ ID,connected
 20022,False
 20023,True
 20024,True
-20025,False
-20026,False
+20025,True
+20026,True
 20027,True
 20028,True
 20029,True
@@ -20046,7 +20046,7 @@ ID,connected
 20044,True
 20045,False
 20046,False
-20047,False
+20047,True
 20048,True
 20049,False
 20050,True
@@ -20251,7 +20251,7 @@ ID,connected
 20249,True
 20250,True
 20251,False
-20252,False
+20252,True
 20253,False
 20254,False
 20255,False
@@ -20301,7 +20301,7 @@ ID,connected
 20299,True
 20300,False
 20301,True
-20302,False
+20302,True
 20303,True
 20304,False
 20305,False
@@ -20316,7 +20316,7 @@ ID,connected
 20314,True
 20315,False
 20316,False
-20317,False
+20317,True
 20318,False
 20319,False
 20320,False
@@ -20405,7 +20405,7 @@ ID,connected
 20403,True
 20404,True
 20405,True
-20406,False
+20406,True
 20407,False
 20408,False
 20409,False
@@ -20522,7 +20522,7 @@ ID,connected
 20520,False
 20521,False
 20522,False
-20523,False
+20523,True
 20524,False
 20525,False
 20526,False
@@ -20547,7 +20547,7 @@ ID,connected
 20545,False
 20546,True
 20547,True
-20548,False
+20548,True
 20549,False
 20550,False
 20551,False
@@ -20610,7 +20610,7 @@ ID,connected
 20608,False
 20609,True
 20610,True
-20611,False
+20611,True
 20612,False
 20613,False
 20614,False
@@ -20730,7 +20730,7 @@ ID,connected
 20728,True
 20729,True
 20730,True
-20731,False
+20731,True
 20732,False
 20733,True
 20734,False
@@ -20830,7 +20830,7 @@ ID,connected
 20828,False
 20829,False
 20830,False
-20831,False
+20831,True
 20832,True
 20833,True
 20834,True
@@ -20894,7 +20894,7 @@ ID,connected
 20892,False
 20893,True
 20894,True
-20895,False
+20895,True
 20896,False
 20897,False
 20898,False
@@ -21092,7 +21092,7 @@ ID,connected
 21090,True
 21091,True
 21092,True
-21093,True
+21093,False
 21094,False
 21095,False
 21096,False
@@ -21262,7 +21262,7 @@ ID,connected
 21260,False
 21261,False
 21262,True
-21263,False
+21263,True
 21264,False
 21265,True
 21266,True
@@ -21319,7 +21319,7 @@ ID,connected
 21317,True
 21318,True
 21319,True
-21320,False
+21320,True
 21321,False
 21322,False
 21323,False
@@ -21361,14 +21361,14 @@ ID,connected
 21359,False
 21360,True
 21361,True
-21362,False
+21362,True
 21363,False
 21364,False
 21365,True
 21366,True
 21367,False
 21368,False
-21369,False
+21369,True
 21370,False
 21371,False
 21372,True
@@ -21505,7 +21505,7 @@ ID,connected
 21503,True
 21504,True
 21505,True
-21506,False
+21506,True
 21507,False
 21508,False
 21509,False
@@ -21538,7 +21538,7 @@ ID,connected
 21536,True
 21537,False
 21538,False
-21539,False
+21539,True
 21540,False
 21541,False
 21542,False
@@ -21601,7 +21601,7 @@ ID,connected
 21599,True
 21600,True
 21601,True
-21602,True
+21602,False
 21603,False
 21604,False
 21605,False
@@ -21615,7 +21615,7 @@ ID,connected
 21613,True
 21614,True
 21615,True
-21616,False
+21616,True
 21617,False
 21618,False
 21619,False
@@ -21661,8 +21661,8 @@ ID,connected
 21659,True
 21660,True
 21661,True
-21662,False
-21663,False
+21662,True
+21663,True
 21664,False
 21665,False
 21666,False
@@ -21685,7 +21685,7 @@ ID,connected
 21683,False
 21684,True
 21685,True
-21686,False
+21686,True
 21687,False
 21688,False
 21689,False
@@ -21747,7 +21747,7 @@ ID,connected
 21745,False
 21746,False
 21747,False
-21748,True
+21748,False
 21749,False
 21750,False
 21751,True
@@ -21797,7 +21797,7 @@ ID,connected
 21795,True
 21796,True
 21797,True
-21798,False
+21798,True
 21799,False
 21800,False
 21801,False
@@ -21816,7 +21816,7 @@ ID,connected
 21814,True
 21815,True
 21816,True
-21817,False
+21817,True
 21818,False
 21819,False
 21820,False
@@ -21882,7 +21882,7 @@ ID,connected
 21880,False
 21881,True
 21882,False
-21883,False
+21883,True
 21884,False
 21885,False
 21886,False
@@ -21929,7 +21929,7 @@ ID,connected
 21927,False
 21928,True
 21929,True
-21930,False
+21930,True
 21931,True
 21932,True
 21933,False
@@ -21983,7 +21983,7 @@ ID,connected
 21981,False
 21982,False
 21983,False
-21984,False
+21984,True
 21985,False
 21986,True
 21987,False
@@ -22005,7 +22005,7 @@ ID,connected
 22003,False
 22004,False
 22005,False
-22006,False
+22006,True
 22007,False
 22008,False
 22009,False
@@ -22075,7 +22075,7 @@ ID,connected
 22073,True
 22074,False
 22075,True
-22076,False
+22076,True
 22077,False
 22078,False
 22079,False
@@ -22146,7 +22146,7 @@ ID,connected
 22144,True
 22145,False
 22146,False
-22147,False
+22147,True
 22148,False
 22149,False
 22150,True
@@ -22182,7 +22182,7 @@ ID,connected
 22180,False
 22181,False
 22182,False
-22183,False
+22183,True
 22184,False
 22185,False
 22186,False
@@ -22295,14 +22295,14 @@ ID,connected
 22293,False
 22294,False
 22295,True
-22296,False
+22296,True
 22297,False
 22298,False
 22299,False
 22300,False
 22301,False
 22302,False
-22303,False
+22303,True
 22304,False
 22305,False
 22306,False
@@ -22317,14 +22317,14 @@ ID,connected
 22315,True
 22316,True
 22317,True
-22318,False
-22319,False
-22320,False
+22318,True
+22319,True
+22320,True
 22321,False
 22322,False
 22323,False
 22324,True
-22325,False
+22325,True
 22326,False
 22327,False
 22328,False
@@ -22347,7 +22347,7 @@ ID,connected
 22345,False
 22346,False
 22347,True
-22348,False
+22348,True
 22349,False
 22350,False
 22351,False
@@ -22403,7 +22403,7 @@ ID,connected
 22401,False
 22402,False
 22403,False
-22404,False
+22404,True
 22405,False
 22406,False
 22407,True
@@ -22411,7 +22411,7 @@ ID,connected
 22409,False
 22410,False
 22411,False
-22412,False
+22412,True
 22413,False
 22414,False
 22415,False
@@ -22471,12 +22471,12 @@ ID,connected
 22469,False
 22470,True
 22471,True
-22472,False
+22472,True
 22473,False
 22474,True
 22475,True
 22476,True
-22477,False
+22477,True
 22478,False
 22479,False
 22480,False
@@ -22493,7 +22493,7 @@ ID,connected
 22491,True
 22492,True
 22493,True
-22494,True
+22494,False
 22495,False
 22496,False
 22497,False
@@ -22516,8 +22516,8 @@ ID,connected
 22514,True
 22515,True
 22516,True
-22517,False
-22518,False
+22517,True
+22518,True
 22519,False
 22520,False
 22521,False
@@ -22534,7 +22534,7 @@ ID,connected
 22532,False
 22533,True
 22534,True
-22535,False
+22535,True
 22536,False
 22537,True
 22538,True
@@ -22598,7 +22598,7 @@ ID,connected
 22596,False
 22597,False
 22598,False
-22599,False
+22599,True
 22600,False
 22601,True
 22602,True
@@ -22675,8 +22675,8 @@ ID,connected
 22673,True
 22674,True
 22675,True
-22676,True
-22677,True
+22676,False
+22677,False
 22678,False
 22679,False
 22680,False
@@ -22754,8 +22754,8 @@ ID,connected
 22752,True
 22753,True
 22754,True
-22755,False
-22756,False
+22755,True
+22756,True
 22757,False
 22758,False
 22759,False
@@ -22783,7 +22783,7 @@ ID,connected
 22781,True
 22782,True
 22783,True
-22784,False
+22784,True
 22785,False
 22786,False
 22787,False
@@ -22818,7 +22818,7 @@ ID,connected
 22816,True
 22817,True
 22818,True
-22819,False
+22819,True
 22820,False
 22821,False
 22822,False
@@ -22916,7 +22916,7 @@ ID,connected
 22914,False
 22915,False
 22916,False
-22917,False
+22917,True
 22918,False
 22919,False
 22920,False
@@ -22926,7 +22926,7 @@ ID,connected
 22924,False
 22925,False
 22926,True
-22927,False
+22927,True
 22928,False
 22929,False
 22930,False
@@ -22963,7 +22963,7 @@ ID,connected
 22961,True
 22962,False
 22963,True
-22964,False
+22964,True
 22965,False
 22966,False
 22967,False
@@ -22980,7 +22980,7 @@ ID,connected
 22978,True
 22979,True
 22980,False
-22981,False
+22981,True
 22982,True
 22983,False
 22984,True
@@ -23035,7 +23035,7 @@ ID,connected
 23033,False
 23034,False
 23035,False
-23036,False
+23036,True
 23037,False
 23038,True
 23039,True
@@ -23044,7 +23044,7 @@ ID,connected
 23042,True
 23043,False
 23044,False
-23045,False
+23045,True
 23046,False
 23047,True
 23048,True
@@ -23065,7 +23065,7 @@ ID,connected
 23063,True
 23064,True
 23065,True
-23066,False
+23066,True
 23067,False
 23068,False
 23069,False
@@ -23150,7 +23150,7 @@ ID,connected
 23148,True
 23149,False
 23150,True
-23151,False
+23151,True
 23152,False
 23153,False
 23154,False
@@ -23190,7 +23190,7 @@ ID,connected
 23188,False
 23189,True
 23190,True
-23191,False
+23191,True
 23192,True
 23193,True
 23194,True
@@ -23224,7 +23224,7 @@ ID,connected
 23222,False
 23223,False
 23224,True
-23225,False
+23225,True
 23226,True
 23227,False
 23228,False
@@ -23233,7 +23233,7 @@ ID,connected
 23231,False
 23232,True
 23233,True
-23234,False
+23234,True
 23235,True
 23236,True
 23237,True
@@ -23317,7 +23317,7 @@ ID,connected
 23315,False
 23316,True
 23317,True
-23318,False
+23318,True
 23319,False
 23320,False
 23321,True
@@ -23325,7 +23325,7 @@ ID,connected
 23323,False
 23324,True
 23325,True
-23326,False
+23326,True
 23327,False
 23328,True
 23329,True
@@ -23374,7 +23374,7 @@ ID,connected
 23372,False
 23373,False
 23374,True
-23375,False
+23375,True
 23376,True
 23377,False
 23378,False
@@ -23494,7 +23494,7 @@ ID,connected
 23492,False
 23493,False
 23494,False
-23495,False
+23495,True
 23496,False
 23497,False
 23498,False
@@ -23507,7 +23507,7 @@ ID,connected
 23505,True
 23506,False
 23507,False
-23508,False
+23508,True
 23509,False
 23510,False
 23511,True
@@ -23566,12 +23566,12 @@ ID,connected
 23564,True
 23565,False
 23566,True
-23567,False
+23567,True
 23568,False
 23569,False
 23570,False
 23571,True
-23572,False
+23572,True
 23573,False
 23574,False
 23575,True
@@ -23594,7 +23594,7 @@ ID,connected
 23592,False
 23593,False
 23594,False
-23595,False
+23595,True
 23596,False
 23597,False
 23598,False
@@ -23604,7 +23604,7 @@ ID,connected
 23602,False
 23603,False
 23604,False
-23605,False
+23605,True
 23606,False
 23607,False
 23608,False
@@ -23630,7 +23630,7 @@ ID,connected
 23628,False
 23629,False
 23630,False
-23631,False
+23631,True
 23632,False
 23633,True
 23634,False
@@ -23696,13 +23696,13 @@ ID,connected
 23694,False
 23695,False
 23696,False
-23697,False
+23697,True
 23698,False
 23699,True
 23700,False
 23701,True
 23702,False
-23703,False
+23703,True
 23704,True
 23705,True
 23706,True
@@ -23745,7 +23745,7 @@ ID,connected
 23743,False
 23744,True
 23745,True
-23746,False
+23746,True
 23747,False
 23748,True
 23749,True
@@ -23773,7 +23773,7 @@ ID,connected
 23771,True
 23772,True
 23773,True
-23774,False
+23774,True
 23775,False
 23776,False
 23777,True
@@ -23782,7 +23782,7 @@ ID,connected
 23780,True
 23781,True
 23782,False
-23783,False
+23783,True
 23784,False
 23785,False
 23786,False
@@ -23803,7 +23803,7 @@ ID,connected
 23801,True
 23802,False
 23803,True
-23804,False
+23804,True
 23805,False
 23806,False
 23807,False
@@ -23844,8 +23844,8 @@ ID,connected
 23842,True
 23843,True
 23844,True
-23845,False
-23846,False
+23845,True
+23846,True
 23847,False
 23848,False
 23849,False
@@ -23858,7 +23858,7 @@ ID,connected
 23856,True
 23857,True
 23858,False
-23859,False
+23859,True
 23860,True
 23861,False
 23862,True
@@ -23877,7 +23877,7 @@ ID,connected
 23875,False
 23876,False
 23877,True
-23878,False
+23878,True
 23879,False
 23880,False
 23881,True
@@ -23906,12 +23906,12 @@ ID,connected
 23904,False
 23905,False
 23906,True
-23907,False
+23907,True
 23908,False
 23909,False
 23910,False
 23911,False
-23912,False
+23912,True
 23913,True
 23914,False
 23915,False
@@ -23951,7 +23951,7 @@ ID,connected
 23949,True
 23950,True
 23951,True
-23952,False
+23952,True
 23953,False
 23954,False
 23955,False
@@ -23997,7 +23997,7 @@ ID,connected
 23995,True
 23996,False
 23997,False
-23998,False
+23998,True
 23999,False
 24000,False
 24001,False
@@ -24097,7 +24097,7 @@ ID,connected
 24095,False
 24096,True
 24097,True
-24098,False
+24098,True
 24099,False
 24100,False
 24101,True
@@ -24137,7 +24137,7 @@ ID,connected
 24135,True
 24136,True
 24137,True
-24138,True
+24138,False
 24139,False
 24140,False
 24141,False
@@ -24150,7 +24150,7 @@ ID,connected
 24148,True
 24149,True
 24150,True
-24151,False
+24151,True
 24152,False
 24153,False
 24154,True
@@ -24207,8 +24207,8 @@ ID,connected
 24205,False
 24206,False
 24207,False
-24208,False
-24209,False
+24208,True
+24209,True
 24210,False
 24211,False
 24212,False
@@ -24252,7 +24252,7 @@ ID,connected
 24250,False
 24251,False
 24252,False
-24253,False
+24253,True
 24254,True
 24255,False
 24256,True
@@ -24294,7 +24294,7 @@ ID,connected
 24292,True
 24293,True
 24294,True
-24295,False
+24295,True
 24296,False
 24297,False
 24298,False
@@ -24332,7 +24332,7 @@ ID,connected
 24330,True
 24331,False
 24332,False
-24333,False
+24333,True
 24334,True
 24335,False
 24336,False
@@ -24384,7 +24384,7 @@ ID,connected
 24382,True
 24383,True
 24384,True
-24385,False
+24385,True
 24386,False
 24387,False
 24388,False
@@ -24416,7 +24416,7 @@ ID,connected
 24414,False
 24415,False
 24416,False
-24417,False
+24417,True
 24418,True
 24419,False
 24420,True
@@ -24466,7 +24466,7 @@ ID,connected
 24464,True
 24465,False
 24466,False
-24467,False
+24467,True
 24468,False
 24469,False
 24470,True
@@ -24481,7 +24481,7 @@ ID,connected
 24479,False
 24480,True
 24481,True
-24482,False
+24482,True
 24483,False
 24484,False
 24485,False
@@ -24636,7 +24636,7 @@ ID,connected
 24634,False
 24635,True
 24636,True
-24637,False
+24637,True
 24638,False
 24639,False
 24640,False
@@ -24656,7 +24656,7 @@ ID,connected
 24654,True
 24655,True
 24656,True
-24657,False
+24657,True
 24658,False
 24659,False
 24660,False
@@ -24666,7 +24666,7 @@ ID,connected
 24664,True
 24665,True
 24666,True
-24667,False
+24667,True
 24668,False
 24669,False
 24670,False
@@ -24821,7 +24821,7 @@ ID,connected
 24819,True
 24820,True
 24821,True
-24822,False
+24822,True
 24823,False
 24824,False
 24825,False
@@ -24844,7 +24844,7 @@ ID,connected
 24842,True
 24843,True
 24844,True
-24845,False
+24845,True
 24846,False
 24847,False
 24848,False
@@ -24855,7 +24855,7 @@ ID,connected
 24853,False
 24854,True
 24855,True
-24856,False
+24856,True
 24857,False
 24858,True
 24859,False
@@ -24934,7 +24934,7 @@ ID,connected
 24932,True
 24933,True
 24934,True
-24935,False
+24935,True
 24936,False
 24937,False
 24938,False
@@ -24976,7 +24976,7 @@ ID,connected
 24974,False
 24975,False
 24976,True
-24977,False
+24977,True
 24978,False
 24979,False
 24980,False
@@ -25004,12 +25004,12 @@ ID,connected
 25002,True
 25003,False
 25004,False
-25005,False
+25005,True
 25006,True
 25007,True
 25008,False
 25009,False
-25010,False
+25010,True
 25011,False
 25012,False
 25013,True
@@ -25018,7 +25018,7 @@ ID,connected
 25016,False
 25017,False
 25018,False
-25019,False
+25019,True
 25020,True
 25021,False
 25022,False
@@ -25052,7 +25052,7 @@ ID,connected
 25050,False
 25051,False
 25052,True
-25053,True
+25053,False
 25054,False
 25055,False
 25056,False
@@ -25083,7 +25083,7 @@ ID,connected
 25081,False
 25082,False
 25083,False
-25084,False
+25084,True
 25085,False
 25086,False
 25087,False
@@ -25143,7 +25143,7 @@ ID,connected
 25141,True
 25142,True
 25143,True
-25144,False
+25144,True
 25145,False
 25146,False
 25147,False
@@ -25174,7 +25174,7 @@ ID,connected
 25172,False
 25173,False
 25174,True
-25175,False
+25175,True
 25176,False
 25177,False
 25178,True
@@ -25186,7 +25186,7 @@ ID,connected
 25184,True
 25185,True
 25186,True
-25187,False
+25187,True
 25188,False
 25189,False
 25190,False
@@ -25235,7 +25235,7 @@ ID,connected
 25233,True
 25234,False
 25235,True
-25236,False
+25236,True
 25237,False
 25238,False
 25239,False
@@ -25301,12 +25301,12 @@ ID,connected
 25299,False
 25300,False
 25301,False
-25302,False
+25302,True
 25303,False
 25304,False
 25305,True
 25306,False
-25307,True
+25307,False
 25308,False
 25309,False
 25310,True
@@ -25314,7 +25314,7 @@ ID,connected
 25312,True
 25313,True
 25314,True
-25315,False
+25315,True
 25316,False
 25317,False
 25318,True
@@ -25538,7 +25538,7 @@ ID,connected
 25536,True
 25537,True
 25538,True
-25539,True
+25539,False
 25540,False
 25541,False
 25542,False
@@ -25560,7 +25560,7 @@ ID,connected
 25558,False
 25559,False
 25560,False
-25561,False
+25561,True
 25562,True
 25563,False
 25564,False
@@ -25600,7 +25600,7 @@ ID,connected
 25598,False
 25599,True
 25600,True
-25601,False
+25601,True
 25602,False
 25603,False
 25604,False
@@ -25658,13 +25658,13 @@ ID,connected
 25656,False
 25657,False
 25658,False
-25659,False
+25659,True
 25660,False
 25661,False
 25662,False
 25663,True
 25664,True
-25665,False
+25665,True
 25666,False
 25667,False
 25668,False
@@ -25700,7 +25700,7 @@ ID,connected
 25698,False
 25699,False
 25700,True
-25701,False
+25701,True
 25702,False
 25703,False
 25704,True
@@ -25783,7 +25783,7 @@ ID,connected
 25781,True
 25782,True
 25783,False
-25784,False
+25784,True
 25785,False
 25786,False
 25787,True
@@ -25884,8 +25884,8 @@ ID,connected
 25882,True
 25883,True
 25884,True
-25885,False
-25886,False
+25885,True
+25886,True
 25887,False
 25888,False
 25889,False
@@ -25924,7 +25924,7 @@ ID,connected
 25922,False
 25923,False
 25924,False
-25925,False
+25925,True
 25926,True
 25927,False
 25928,False
@@ -25955,7 +25955,7 @@ ID,connected
 25953,False
 25954,False
 25955,False
-25956,True
+25956,False
 25957,False
 25958,False
 25959,True
@@ -25968,7 +25968,7 @@ ID,connected
 25966,False
 25967,False
 25968,True
-25969,False
+25969,True
 25970,True
 25971,False
 25972,True
@@ -25996,7 +25996,7 @@ ID,connected
 25994,False
 25995,False
 25996,True
-25997,False
+25997,True
 25998,False
 25999,True
 26000,True
@@ -26103,7 +26103,7 @@ ID,connected
 26101,False
 26102,True
 26103,True
-26104,False
+26104,True
 26105,False
 26106,False
 26107,True
@@ -26132,7 +26132,7 @@ ID,connected
 26130,False
 26131,True
 26132,True
-26133,True
+26133,False
 26134,True
 26135,False
 26136,True
@@ -26257,7 +26257,7 @@ ID,connected
 26255,True
 26256,False
 26257,False
-26258,False
+26258,True
 26259,False
 26260,True
 26261,True
@@ -26314,7 +26314,7 @@ ID,connected
 26312,False
 26313,True
 26314,True
-26315,True
+26315,False
 26316,False
 26317,False
 26318,False
@@ -26332,7 +26332,7 @@ ID,connected
 26330,False
 26331,True
 26332,False
-26333,False
+26333,True
 26334,False
 26335,False
 26336,False
@@ -26342,7 +26342,7 @@ ID,connected
 26340,True
 26341,True
 26342,True
-26343,False
+26343,True
 26344,False
 26345,False
 26346,False
@@ -26400,7 +26400,7 @@ ID,connected
 26398,True
 26399,True
 26400,True
-26401,False
+26401,True
 26402,False
 26403,False
 26404,False
@@ -26418,7 +26418,7 @@ ID,connected
 26416,True
 26417,True
 26418,True
-26419,True
+26419,False
 26420,False
 26421,False
 26422,False
@@ -26432,9 +26432,9 @@ ID,connected
 26430,False
 26431,True
 26432,True
-26433,True
+26433,False
 26434,True
-26435,True
+26435,False
 26436,False
 26437,True
 26438,True
@@ -26465,7 +26465,7 @@ ID,connected
 26463,True
 26464,True
 26465,True
-26466,False
+26466,True
 26467,False
 26468,False
 26469,False
@@ -26531,7 +26531,7 @@ ID,connected
 26529,True
 26530,True
 26531,False
-26532,False
+26532,True
 26533,False
 26534,False
 26535,True
@@ -26612,7 +26612,7 @@ ID,connected
 26610,False
 26611,False
 26612,True
-26613,False
+26613,True
 26614,True
 26615,False
 26616,False
@@ -26667,7 +26667,7 @@ ID,connected
 26665,False
 26666,True
 26667,False
-26668,False
+26668,True
 26669,False
 26670,False
 26671,False
@@ -26683,8 +26683,8 @@ ID,connected
 26681,False
 26682,False
 26683,True
-26684,True
-26685,True
+26684,False
+26685,False
 26686,False
 26687,False
 26688,False
@@ -26731,7 +26731,7 @@ ID,connected
 26729,True
 26730,True
 26731,True
-26732,True
+26732,False
 26733,False
 26734,False
 26735,False
@@ -26989,9 +26989,9 @@ ID,connected
 26987,False
 26988,False
 26989,False
-26990,False
+26990,True
 26991,False
-26992,False
+26992,True
 26993,False
 26994,True
 26995,False
@@ -27014,7 +27014,7 @@ ID,connected
 27012,False
 27013,False
 27014,True
-27015,False
+27015,True
 27016,False
 27017,False
 27018,False
@@ -27035,7 +27035,7 @@ ID,connected
 27033,False
 27034,True
 27035,False
-27036,False
+27036,True
 27037,True
 27038,True
 27039,True
@@ -27125,7 +27125,7 @@ ID,connected
 27123,False
 27124,True
 27125,True
-27126,True
+27126,False
 27127,False
 27128,False
 27129,False
@@ -27197,7 +27197,7 @@ ID,connected
 27195,False
 27196,True
 27197,False
-27198,True
+27198,False
 27199,False
 27200,False
 27201,True
@@ -27256,7 +27256,7 @@ ID,connected
 27254,True
 27255,True
 27256,True
-27257,False
+27257,True
 27258,False
 27259,True
 27260,False
@@ -27270,10 +27270,10 @@ ID,connected
 27268,False
 27269,True
 27270,False
-27271,False
+27271,True
 27272,False
 27273,False
-27274,False
+27274,True
 27275,False
 27276,False
 27277,True
@@ -27290,7 +27290,7 @@ ID,connected
 27288,True
 27289,True
 27290,True
-27291,False
+27291,True
 27292,False
 27293,False
 27294,False
@@ -27334,7 +27334,7 @@ ID,connected
 27332,False
 27333,True
 27334,True
-27335,True
+27335,False
 27336,False
 27337,False
 27338,False
@@ -27358,7 +27358,7 @@ ID,connected
 27356,False
 27357,False
 27358,True
-27359,False
+27359,True
 27360,False
 27361,True
 27362,False
@@ -27509,8 +27509,8 @@ ID,connected
 27507,True
 27508,False
 27509,False
-27510,False
-27511,False
+27510,True
+27511,True
 27512,False
 27513,False
 27514,False
@@ -27528,7 +27528,7 @@ ID,connected
 27526,True
 27527,True
 27528,True
-27529,False
+27529,True
 27530,True
 27531,True
 27532,True
@@ -27548,7 +27548,7 @@ ID,connected
 27546,True
 27547,True
 27548,True
-27549,False
+27549,True
 27550,True
 27551,True
 27552,True
@@ -27791,7 +27791,7 @@ ID,connected
 27789,False
 27790,False
 27791,False
-27792,False
+27792,True
 27793,False
 27794,True
 27795,True
@@ -27799,7 +27799,7 @@ ID,connected
 27797,False
 27798,False
 27799,False
-27800,True
+27800,False
 27801,True
 27802,False
 27803,False
@@ -27934,7 +27934,7 @@ ID,connected
 27932,False
 27933,True
 27934,True
-27935,False
+27935,True
 27936,False
 27937,True
 27938,True
@@ -27943,13 +27943,13 @@ ID,connected
 27941,False
 27942,True
 27943,True
-27944,False
+27944,True
 27945,False
 27946,False
 27947,True
 27948,True
 27949,True
-27950,False
+27950,True
 27951,False
 27952,False
 27953,False
@@ -27968,7 +27968,7 @@ ID,connected
 27966,False
 27967,True
 27968,True
-27969,False
+27969,True
 27970,False
 27971,False
 27972,False
@@ -27993,7 +27993,7 @@ ID,connected
 27991,True
 27992,True
 27993,True
-27994,False
+27994,True
 27995,False
 27996,False
 27997,False
@@ -28040,7 +28040,7 @@ ID,connected
 28038,True
 28039,True
 28040,True
-28041,False
+28041,True
 28042,False
 28043,False
 28044,False
@@ -28048,13 +28048,13 @@ ID,connected
 28046,False
 28047,False
 28048,True
-28049,False
+28049,True
 28050,True
 28051,True
 28052,True
 28053,True
 28054,True
-28055,False
+28055,True
 28056,False
 28057,False
 28058,False
@@ -28089,7 +28089,7 @@ ID,connected
 28087,False
 28088,False
 28089,False
-28090,False
+28090,True
 28091,True
 28092,True
 28093,True
@@ -28129,7 +28129,7 @@ ID,connected
 28127,False
 28128,False
 28129,False
-28130,False
+28130,True
 28131,True
 28132,True
 28133,True
@@ -28147,7 +28147,7 @@ ID,connected
 28145,False
 28146,True
 28147,True
-28148,False
+28148,True
 28149,False
 28150,False
 28151,False
@@ -28232,13 +28232,13 @@ ID,connected
 28230,True
 28231,False
 28232,True
-28233,False
+28233,True
 28234,False
 28235,False
 28236,True
 28237,True
 28238,True
-28239,False
+28239,True
 28240,False
 28241,False
 28242,False
@@ -28250,7 +28250,7 @@ ID,connected
 28248,False
 28249,False
 28250,True
-28251,False
+28251,True
 28252,False
 28253,False
 28254,False
@@ -28267,7 +28267,7 @@ ID,connected
 28265,False
 28266,False
 28267,True
-28268,False
+28268,True
 28269,False
 28270,False
 28271,False
@@ -28329,7 +28329,7 @@ ID,connected
 28327,False
 28328,False
 28329,True
-28330,False
+28330,True
 28331,False
 28332,False
 28333,False
@@ -28337,7 +28337,7 @@ ID,connected
 28335,False
 28336,True
 28337,True
-28338,False
+28338,True
 28339,False
 28340,False
 28341,False
@@ -28403,7 +28403,7 @@ ID,connected
 28401,False
 28402,False
 28403,True
-28404,False
+28404,True
 28405,False
 28406,False
 28407,True
@@ -28427,7 +28427,7 @@ ID,connected
 28425,True
 28426,True
 28427,True
-28428,False
+28428,True
 28429,False
 28430,True
 28431,False
@@ -28483,23 +28483,23 @@ ID,connected
 28481,True
 28482,False
 28483,True
-28484,False
+28484,True
 28485,False
 28486,True
 28487,False
 28488,False
-28489,False
+28489,True
 28490,False
 28491,False
 28492,True
-28493,False
+28493,True
 28494,False
 28495,True
-28496,False
+28496,True
 28497,False
 28498,False
 28499,True
-28500,False
+28500,True
 28501,False
 28502,False
 28503,True
@@ -28515,7 +28515,7 @@ ID,connected
 28513,False
 28514,False
 28515,False
-28516,False
+28516,True
 28517,True
 28518,True
 28519,False
@@ -28525,8 +28525,8 @@ ID,connected
 28523,False
 28524,False
 28525,True
-28526,False
-28527,False
+28526,True
+28527,True
 28528,False
 28529,False
 28530,False
@@ -28607,10 +28607,10 @@ ID,connected
 28605,False
 28606,False
 28607,True
-28608,False
+28608,True
 28609,False
 28610,True
-28611,False
+28611,True
 28612,False
 28613,False
 28614,False
@@ -28625,7 +28625,7 @@ ID,connected
 28623,True
 28624,False
 28625,False
-28626,False
+28626,True
 28627,False
 28628,False
 28629,False
@@ -28711,7 +28711,7 @@ ID,connected
 28709,False
 28710,True
 28711,True
-28712,False
+28712,True
 28713,False
 28714,True
 28715,False
@@ -28790,7 +28790,7 @@ ID,connected
 28788,True
 28789,True
 28790,True
-28791,True
+28791,False
 28792,False
 28793,False
 28794,False
@@ -28877,8 +28877,8 @@ ID,connected
 28875,True
 28876,True
 28877,True
-28878,True
-28879,True
+28878,False
+28879,False
 28880,False
 28881,False
 28882,False
@@ -28911,7 +28911,7 @@ ID,connected
 28909,False
 28910,False
 28911,True
-28912,False
+28912,True
 28913,False
 28914,False
 28915,True
@@ -29031,7 +29031,7 @@ ID,connected
 29029,False
 29030,False
 29031,True
-29032,False
+29032,True
 29033,False
 29034,False
 29035,True
@@ -29060,7 +29060,7 @@ ID,connected
 29058,True
 29059,True
 29060,True
-29061,False
+29061,True
 29062,False
 29063,False
 29064,False
@@ -29075,7 +29075,7 @@ ID,connected
 29073,True
 29074,False
 29075,False
-29076,False
+29076,True
 29077,True
 29078,True
 29079,False
@@ -29094,7 +29094,7 @@ ID,connected
 29092,True
 29093,True
 29094,True
-29095,False
+29095,True
 29096,False
 29097,False
 29098,False
@@ -29130,7 +29130,7 @@ ID,connected
 29128,True
 29129,True
 29130,True
-29131,False
+29131,True
 29132,False
 29133,False
 29134,False
@@ -29184,7 +29184,7 @@ ID,connected
 29182,False
 29183,False
 29184,True
-29185,False
+29185,True
 29186,True
 29187,False
 29188,True
@@ -29206,7 +29206,7 @@ ID,connected
 29204,True
 29205,True
 29206,True
-29207,True
+29207,False
 29208,False
 29209,False
 29210,False
@@ -29248,7 +29248,7 @@ ID,connected
 29246,True
 29247,True
 29248,False
-29249,True
+29249,False
 29250,False
 29251,False
 29252,False
@@ -29339,8 +29339,8 @@ ID,connected
 29337,False
 29338,False
 29339,True
-29340,False
-29341,False
+29340,True
+29341,True
 29342,False
 29343,False
 29344,False
@@ -29350,7 +29350,7 @@ ID,connected
 29348,False
 29349,False
 29350,False
-29351,False
+29351,True
 29352,True
 29353,True
 29354,True
@@ -29451,7 +29451,7 @@ ID,connected
 29449,True
 29450,True
 29451,True
-29452,False
+29452,True
 29453,False
 29454,False
 29455,False
@@ -29561,7 +29561,7 @@ ID,connected
 29559,False
 29560,False
 29561,False
-29562,True
+29562,False
 29563,False
 29564,False
 29565,False
@@ -29570,7 +29570,7 @@ ID,connected
 29568,False
 29569,False
 29570,False
-29571,False
+29571,True
 29572,True
 29573,True
 29574,False
@@ -29601,7 +29601,7 @@ ID,connected
 29599,True
 29600,True
 29601,True
-29602,True
+29602,False
 29603,False
 29604,False
 29605,False
@@ -29610,8 +29610,8 @@ ID,connected
 29608,True
 29609,True
 29610,True
-29611,False
-29612,False
+29611,True
+29612,True
 29613,False
 29614,True
 29615,True
@@ -29663,8 +29663,8 @@ ID,connected
 29661,True
 29662,True
 29663,True
-29664,True
-29665,True
+29664,False
+29665,False
 29666,False
 29667,False
 29668,False
@@ -29751,11 +29751,11 @@ ID,connected
 29749,False
 29750,True
 29751,True
-29752,False
+29752,True
 29753,False
 29754,True
 29755,True
-29756,True
+29756,False
 29757,False
 29758,False
 29759,False
@@ -29918,7 +29918,7 @@ ID,connected
 29916,True
 29917,True
 29918,True
-29919,False
+29919,True
 29920,False
 29921,False
 29922,False
@@ -30058,7 +30058,7 @@ ID,connected
 30056,False
 30057,False
 30058,True
-30059,False
+30059,True
 30060,False
 30061,False
 30062,True
@@ -30084,7 +30084,7 @@ ID,connected
 30082,False
 30083,True
 30084,True
-30085,False
+30085,True
 30086,False
 30087,False
 30088,False
@@ -30145,10 +30145,10 @@ ID,connected
 30143,False
 30144,False
 30145,True
-30146,False
+30146,True
 30147,False
 30148,False
-30149,False
+30149,True
 30150,False
 30151,True
 30152,False
@@ -30159,7 +30159,7 @@ ID,connected
 30157,True
 30158,True
 30159,True
-30160,False
+30160,True
 30161,False
 30162,False
 30163,True
@@ -30181,7 +30181,7 @@ ID,connected
 30179,True
 30180,True
 30181,True
-30182,False
+30182,True
 30183,False
 30184,False
 30185,False
@@ -30197,7 +30197,7 @@ ID,connected
 30195,True
 30196,False
 30197,False
-30198,False
+30198,True
 30199,False
 30200,False
 30201,False
@@ -30258,7 +30258,7 @@ ID,connected
 30256,False
 30257,True
 30258,True
-30259,False
+30259,True
 30260,False
 30261,True
 30262,True
@@ -30277,8 +30277,8 @@ ID,connected
 30275,False
 30276,True
 30277,True
-30278,False
-30279,False
+30278,True
+30279,True
 30280,False
 30281,False
 30282,False
@@ -30292,7 +30292,7 @@ ID,connected
 30290,False
 30291,True
 30292,True
-30293,False
+30293,True
 30294,False
 30295,False
 30296,False
@@ -30314,7 +30314,7 @@ ID,connected
 30312,False
 30313,True
 30314,False
-30315,False
+30315,True
 30316,True
 30317,False
 30318,False
@@ -30323,7 +30323,7 @@ ID,connected
 30321,True
 30322,True
 30323,True
-30324,False
+30324,True
 30325,False
 30326,False
 30327,False
@@ -30349,7 +30349,7 @@ ID,connected
 30347,False
 30348,False
 30349,True
-30350,False
+30350,True
 30351,False
 30352,False
 30353,False
@@ -30359,7 +30359,7 @@ ID,connected
 30357,False
 30358,False
 30359,False
-30360,False
+30360,True
 30361,False
 30362,False
 30363,False
@@ -30374,11 +30374,11 @@ ID,connected
 30372,False
 30373,False
 30374,True
-30375,False
+30375,True
 30376,True
 30377,False
 30378,True
-30379,False
+30379,True
 30380,False
 30381,False
 30382,False
@@ -30414,9 +30414,9 @@ ID,connected
 30412,True
 30413,True
 30414,True
-30415,False
-30416,False
-30417,False
+30415,True
+30416,True
+30417,True
 30418,False
 30419,False
 30420,False
@@ -30444,7 +30444,7 @@ ID,connected
 30442,False
 30443,True
 30444,False
-30445,False
+30445,True
 30446,True
 30447,True
 30448,True
@@ -30484,7 +30484,7 @@ ID,connected
 30482,False
 30483,True
 30484,False
-30485,False
+30485,True
 30486,False
 30487,True
 30488,True
@@ -30493,7 +30493,7 @@ ID,connected
 30491,False
 30492,True
 30493,False
-30494,False
+30494,True
 30495,False
 30496,False
 30497,False
@@ -30525,7 +30525,7 @@ ID,connected
 30523,False
 30524,False
 30525,False
-30526,False
+30526,True
 30527,True
 30528,True
 30529,True
@@ -30534,12 +30534,12 @@ ID,connected
 30532,False
 30533,True
 30534,False
-30535,False
+30535,True
 30536,False
 30537,False
 30538,False
 30539,False
-30540,False
+30540,True
 30541,False
 30542,False
 30543,False
@@ -30570,7 +30570,7 @@ ID,connected
 30568,False
 30569,False
 30570,False
-30571,False
+30571,True
 30572,False
 30573,False
 30574,False
@@ -30580,7 +30580,7 @@ ID,connected
 30578,True
 30579,True
 30580,True
-30581,False
+30581,True
 30582,False
 30583,False
 30584,False
@@ -30602,7 +30602,7 @@ ID,connected
 30600,True
 30601,False
 30602,True
-30603,False
+30603,True
 30604,True
 30605,True
 30606,True
@@ -30631,7 +30631,7 @@ ID,connected
 30629,False
 30630,False
 30631,True
-30632,False
+30632,True
 30633,False
 30634,False
 30635,False
@@ -30694,7 +30694,7 @@ ID,connected
 30692,True
 30693,False
 30694,False
-30695,False
+30695,True
 30696,False
 30697,True
 30698,False
@@ -30755,7 +30755,7 @@ ID,connected
 30753,True
 30754,True
 30755,True
-30756,False
+30756,True
 30757,False
 30758,False
 30759,False
@@ -30769,15 +30769,15 @@ ID,connected
 30767,True
 30768,True
 30769,True
-30770,False
+30770,True
 30771,False
-30772,False
+30772,True
 30773,False
 30774,True
 30775,False
 30776,False
 30777,True
-30778,False
+30778,True
 30779,False
 30780,False
 30781,False
@@ -30789,7 +30789,7 @@ ID,connected
 30787,True
 30788,True
 30789,True
-30790,False
+30790,True
 30791,False
 30792,False
 30793,False
@@ -30806,7 +30806,7 @@ ID,connected
 30804,True
 30805,False
 30806,True
-30807,False
+30807,True
 30808,False
 30809,False
 30810,False
@@ -30821,7 +30821,7 @@ ID,connected
 30819,True
 30820,False
 30821,False
-30822,False
+30822,True
 30823,True
 30824,True
 30825,True
@@ -30832,7 +30832,7 @@ ID,connected
 30830,False
 30831,True
 30832,False
-30833,False
+30833,True
 30834,False
 30835,True
 30836,False
@@ -30908,7 +30908,7 @@ ID,connected
 30906,False
 30907,False
 30908,True
-30909,False
+30909,True
 30910,False
 30911,False
 30912,False
@@ -30929,7 +30929,7 @@ ID,connected
 30927,False
 30928,True
 30929,True
-30930,False
+30930,True
 30931,True
 30932,True
 30933,False
@@ -30946,7 +30946,7 @@ ID,connected
 30944,False
 30945,True
 30946,True
-30947,False
+30947,True
 30948,True
 30949,True
 30950,False
@@ -30958,7 +30958,7 @@ ID,connected
 30956,True
 30957,True
 30958,False
-30959,False
+30959,True
 30960,True
 30961,False
 30962,False
@@ -31023,7 +31023,7 @@ ID,connected
 31021,True
 31022,False
 31023,False
-31024,False
+31024,True
 31025,False
 31026,False
 31027,False
@@ -31062,7 +31062,7 @@ ID,connected
 31060,True
 31061,True
 31062,True
-31063,False
+31063,True
 31064,True
 31065,False
 31066,False
@@ -31082,7 +31082,7 @@ ID,connected
 31080,False
 31081,True
 31082,False
-31083,False
+31083,True
 31084,False
 31085,False
 31086,False
@@ -31177,7 +31177,7 @@ ID,connected
 31175,True
 31176,False
 31177,True
-31178,False
+31178,True
 31179,False
 31180,False
 31181,False
@@ -31214,7 +31214,7 @@ ID,connected
 31212,True
 31213,True
 31214,True
-31215,False
+31215,True
 31216,False
 31217,False
 31218,True
@@ -31283,7 +31283,7 @@ ID,connected
 31281,True
 31282,True
 31283,True
-31284,False
+31284,True
 31285,False
 31286,False
 31287,False
@@ -31331,7 +31331,7 @@ ID,connected
 31329,True
 31330,True
 31331,True
-31332,False
+31332,True
 31333,False
 31334,False
 31335,False
@@ -31406,7 +31406,7 @@ ID,connected
 31404,False
 31405,True
 31406,True
-31407,False
+31407,True
 31408,False
 31409,False
 31410,False
@@ -31418,8 +31418,8 @@ ID,connected
 31416,False
 31417,True
 31418,True
-31419,False
-31420,False
+31419,True
+31420,True
 31421,False
 31422,False
 31423,False
@@ -31482,8 +31482,8 @@ ID,connected
 31480,True
 31481,False
 31482,False
-31483,False
-31484,False
+31483,True
+31484,True
 31485,False
 31486,False
 31487,False
@@ -31530,9 +31530,9 @@ ID,connected
 31528,False
 31529,True
 31530,True
-31531,False
+31531,True
 31532,True
-31533,False
+31533,True
 31534,False
 31535,False
 31536,False
@@ -31610,7 +31610,7 @@ ID,connected
 31608,True
 31609,False
 31610,True
-31611,False
+31611,True
 31612,False
 31613,False
 31614,False
@@ -31662,11 +31662,11 @@ ID,connected
 31660,False
 31661,False
 31662,True
-31663,False
+31663,True
 31664,False
 31665,True
 31666,True
-31667,False
+31667,True
 31668,False
 31669,True
 31670,False
@@ -31680,12 +31680,12 @@ ID,connected
 31678,True
 31679,True
 31680,True
-31681,False
+31681,True
 31682,False
 31683,False
 31684,False
 31685,True
-31686,False
+31686,True
 31687,False
 31688,False
 31689,False
@@ -31768,7 +31768,7 @@ ID,connected
 31766,True
 31767,True
 31768,True
-31769,True
+31769,False
 31770,False
 31771,True
 31772,True
@@ -31814,11 +31814,11 @@ ID,connected
 31812,True
 31813,False
 31814,True
-31815,False
+31815,True
 31816,False
 31817,True
 31818,False
-31819,False
+31819,True
 31820,False
 31821,False
 31822,False
@@ -31831,7 +31831,7 @@ ID,connected
 31829,True
 31830,True
 31831,True
-31832,False
+31832,True
 31833,False
 31834,False
 31835,False
@@ -31888,7 +31888,7 @@ ID,connected
 31886,False
 31887,False
 31888,True
-31889,False
+31889,True
 31890,False
 31891,False
 31892,False
@@ -31968,7 +31968,7 @@ ID,connected
 31966,False
 31967,False
 31968,False
-31969,False
+31969,True
 31970,False
 31971,False
 31972,True
@@ -32036,7 +32036,7 @@ ID,connected
 32034,True
 32035,True
 32036,True
-32037,False
+32037,True
 32038,True
 32039,False
 32040,False
@@ -32059,12 +32059,12 @@ ID,connected
 32057,True
 32058,True
 32059,False
-32060,False
+32060,True
 32061,False
 32062,False
 32063,True
 32064,False
-32065,False
+32065,True
 32066,False
 32067,False
 32068,False
@@ -32097,11 +32097,11 @@ ID,connected
 32095,False
 32096,True
 32097,True
-32098,False
+32098,True
 32099,True
 32100,True
 32101,True
-32102,False
+32102,True
 32103,False
 32104,False
 32105,False
@@ -32171,21 +32171,21 @@ ID,connected
 32169,True
 32170,False
 32171,False
-32172,False
+32172,True
 32173,False
 32174,False
 32175,False
 32176,False
 32177,False
 32178,False
-32179,False
+32179,True
 32180,False
 32181,False
 32182,True
 32183,True
 32184,True
 32185,True
-32186,False
+32186,True
 32187,False
 32188,False
 32189,True
@@ -32209,7 +32209,7 @@ ID,connected
 32207,False
 32208,False
 32209,False
-32210,False
+32210,True
 32211,True
 32212,False
 32213,False
@@ -32250,7 +32250,7 @@ ID,connected
 32248,True
 32249,False
 32250,True
-32251,False
+32251,True
 32252,False
 32253,True
 32254,False
@@ -32273,8 +32273,8 @@ ID,connected
 32271,True
 32272,False
 32273,True
-32274,False
-32275,False
+32274,True
+32275,True
 32276,False
 32277,False
 32278,False
@@ -32371,8 +32371,8 @@ ID,connected
 32369,False
 32370,False
 32371,False
-32372,False
-32373,False
+32372,True
+32373,True
 32374,False
 32375,False
 32376,True
@@ -32437,12 +32437,12 @@ ID,connected
 32435,True
 32436,False
 32437,False
-32438,False
+32438,True
 32439,False
 32440,False
 32441,False
 32442,False
-32443,False
+32443,True
 32444,False
 32445,False
 32446,False
@@ -32458,7 +32458,7 @@ ID,connected
 32456,False
 32457,False
 32458,True
-32459,False
+32459,True
 32460,False
 32461,False
 32462,False
@@ -32487,10 +32487,10 @@ ID,connected
 32485,True
 32486,False
 32487,False
-32488,False
+32488,True
 32489,True
 32490,False
-32491,False
+32491,True
 32492,True
 32493,False
 32494,True
@@ -32748,7 +32748,7 @@ ID,connected
 32746,True
 32747,True
 32748,True
-32749,False
+32749,True
 32750,False
 32751,False
 32752,True
@@ -32866,12 +32866,12 @@ ID,connected
 32864,False
 32865,False
 32866,False
-32867,False
+32867,True
 32868,False
 32869,False
 32870,False
 32871,False
-32872,False
+32872,True
 32873,False
 32874,False
 32875,False
@@ -33023,12 +33023,12 @@ ID,connected
 33021,True
 33022,True
 33023,True
-33024,False
+33024,True
 33025,False
 33026,False
 33027,True
 33028,True
-33029,False
+33029,True
 33030,False
 33031,False
 33032,True
@@ -33133,7 +33133,7 @@ ID,connected
 33131,True
 33132,True
 33133,False
-33134,False
+33134,True
 33135,False
 33136,False
 33137,False
@@ -33142,7 +33142,7 @@ ID,connected
 33140,False
 33141,True
 33142,False
-33143,False
+33143,True
 33144,False
 33145,False
 33146,False
@@ -33183,7 +33183,7 @@ ID,connected
 33181,True
 33182,True
 33183,True
-33184,False
+33184,True
 33185,False
 33186,False
 33187,False
@@ -33199,7 +33199,7 @@ ID,connected
 33197,False
 33198,True
 33199,True
-33200,False
+33200,True
 33201,False
 33202,False
 33203,False
@@ -33241,7 +33241,7 @@ ID,connected
 33239,False
 33240,False
 33241,True
-33242,False
+33242,True
 33243,False
 33244,False
 33245,False
@@ -33301,7 +33301,7 @@ ID,connected
 33299,True
 33300,True
 33301,True
-33302,False
+33302,True
 33303,False
 33304,False
 33305,False
@@ -33400,7 +33400,7 @@ ID,connected
 33398,False
 33399,False
 33400,False
-33401,False
+33401,True
 33402,False
 33403,False
 33404,False
@@ -33419,7 +33419,7 @@ ID,connected
 33417,False
 33418,False
 33419,False
-33420,False
+33420,True
 33421,False
 33422,False
 33423,False
@@ -33461,7 +33461,7 @@ ID,connected
 33459,False
 33460,False
 33461,True
-33462,False
+33462,True
 33463,False
 33464,True
 33465,True
@@ -33511,7 +33511,7 @@ ID,connected
 33509,False
 33510,False
 33511,True
-33512,False
+33512,True
 33513,False
 33514,False
 33515,False
@@ -33584,8 +33584,8 @@ ID,connected
 33582,True
 33583,True
 33584,True
-33585,False
-33586,False
+33585,True
+33586,True
 33587,False
 33588,True
 33589,False
@@ -33638,7 +33638,7 @@ ID,connected
 33636,True
 33637,True
 33638,True
-33639,False
+33639,True
 33640,False
 33641,True
 33642,False
@@ -33659,7 +33659,7 @@ ID,connected
 33657,False
 33658,True
 33659,True
-33660,False
+33660,True
 33661,False
 33662,True
 33663,True
@@ -33782,7 +33782,7 @@ ID,connected
 33780,False
 33781,False
 33782,True
-33783,False
+33783,True
 33784,False
 33785,True
 33786,True
@@ -33893,7 +33893,7 @@ ID,connected
 33891,False
 33892,False
 33893,False
-33894,False
+33894,True
 33895,True
 33896,True
 33897,False
@@ -33945,12 +33945,12 @@ ID,connected
 33943,True
 33944,True
 33945,True
-33946,False
+33946,True
 33947,False
 33948,True
 33949,True
 33950,True
-33951,False
+33951,True
 33952,False
 33953,False
 33954,True
@@ -33987,7 +33987,7 @@ ID,connected
 33985,True
 33986,False
 33987,False
-33988,False
+33988,True
 33989,False
 33990,False
 33991,True
@@ -34123,7 +34123,7 @@ ID,connected
 34121,True
 34122,False
 34123,True
-34124,False
+34124,True
 34125,False
 34126,False
 34127,False
@@ -34150,11 +34150,11 @@ ID,connected
 34148,False
 34149,False
 34150,False
-34151,False
+34151,True
 34152,True
 34153,True
 34154,True
-34155,True
+34155,False
 34156,False
 34157,False
 34158,False
@@ -34361,7 +34361,7 @@ ID,connected
 34359,True
 34360,False
 34361,False
-34362,False
+34362,True
 34363,False
 34364,False
 34365,False
@@ -34431,7 +34431,7 @@ ID,connected
 34429,False
 34430,True
 34431,True
-34432,False
+34432,True
 34433,False
 34434,True
 34435,True
@@ -34440,8 +34440,8 @@ ID,connected
 34438,True
 34439,False
 34440,False
-34441,False
-34442,False
+34441,True
+34442,True
 34443,False
 34444,True
 34445,True
@@ -34460,7 +34460,7 @@ ID,connected
 34458,True
 34459,True
 34460,True
-34461,False
+34461,True
 34462,False
 34463,False
 34464,False
@@ -34549,7 +34549,7 @@ ID,connected
 34547,True
 34548,True
 34549,True
-34550,False
+34550,True
 34551,False
 34552,False
 34553,True
@@ -34569,7 +34569,7 @@ ID,connected
 34567,False
 34568,False
 34569,True
-34570,False
+34570,True
 34571,False
 34572,False
 34573,False
@@ -34603,7 +34603,7 @@ ID,connected
 34601,False
 34602,False
 34603,False
-34604,False
+34604,True
 34605,True
 34606,True
 34607,False
@@ -34630,7 +34630,7 @@ ID,connected
 34628,True
 34629,False
 34630,True
-34631,False
+34631,True
 34632,False
 34633,False
 34634,False
@@ -34643,7 +34643,7 @@ ID,connected
 34641,False
 34642,False
 34643,True
-34644,False
+34644,True
 34645,False
 34646,False
 34647,False
@@ -34668,7 +34668,7 @@ ID,connected
 34666,True
 34667,True
 34668,True
-34669,False
+34669,True
 34670,False
 34671,True
 34672,False
@@ -34684,7 +34684,7 @@ ID,connected
 34682,False
 34683,True
 34684,True
-34685,False
+34685,True
 34686,False
 34687,False
 34688,True
@@ -34713,7 +34713,7 @@ ID,connected
 34711,True
 34712,False
 34713,False
-34714,False
+34714,True
 34715,True
 34716,True
 34717,True
@@ -34929,7 +34929,7 @@ ID,connected
 34927,True
 34928,True
 34929,True
-34930,False
+34930,True
 34931,False
 34932,False
 34933,False
@@ -34955,7 +34955,7 @@ ID,connected
 34953,True
 34954,True
 34955,True
-34956,False
+34956,True
 34957,False
 34958,False
 34959,False
@@ -34969,7 +34969,7 @@ ID,connected
 34967,False
 34968,False
 34969,False
-34970,False
+34970,True
 34971,True
 34972,False
 34973,False
@@ -35049,7 +35049,7 @@ ID,connected
 35047,True
 35048,False
 35049,True
-35050,False
+35050,True
 35051,False
 35052,False
 35053,True
@@ -35057,13 +35057,13 @@ ID,connected
 35055,False
 35056,True
 35057,True
-35058,False
+35058,True
 35059,False
 35060,False
 35061,True
 35062,True
 35063,True
-35064,False
+35064,True
 35065,False
 35066,False
 35067,False
@@ -35121,13 +35121,13 @@ ID,connected
 35119,True
 35120,True
 35121,True
-35122,False
+35122,True
 35123,False
 35124,False
 35125,False
 35126,False
 35127,True
-35128,False
+35128,True
 35129,False
 35130,False
 35131,False
@@ -35192,8 +35192,8 @@ ID,connected
 35190,True
 35191,True
 35192,True
-35193,False
-35194,False
+35193,True
+35194,True
 35195,False
 35196,False
 35197,False
@@ -35217,7 +35217,7 @@ ID,connected
 35215,False
 35216,True
 35217,False
-35218,False
+35218,True
 35219,False
 35220,False
 35221,False
@@ -35262,7 +35262,7 @@ ID,connected
 35260,False
 35261,False
 35262,True
-35263,False
+35263,True
 35264,False
 35265,False
 35266,False
@@ -35311,7 +35311,7 @@ ID,connected
 35309,True
 35310,True
 35311,True
-35312,False
+35312,True
 35313,False
 35314,False
 35315,False
@@ -35336,7 +35336,7 @@ ID,connected
 35334,False
 35335,False
 35336,True
-35337,False
+35337,True
 35338,False
 35339,False
 35340,False
@@ -35346,8 +35346,8 @@ ID,connected
 35344,True
 35345,True
 35346,False
-35347,False
-35348,False
+35347,True
+35348,True
 35349,False
 35350,True
 35351,True
@@ -35366,7 +35366,7 @@ ID,connected
 35364,False
 35365,False
 35366,True
-35367,False
+35367,True
 35368,True
 35369,False
 35370,False
@@ -35474,7 +35474,7 @@ ID,connected
 35472,False
 35473,False
 35474,True
-35475,False
+35475,True
 35476,False
 35477,False
 35478,False
@@ -35495,7 +35495,7 @@ ID,connected
 35493,False
 35494,True
 35495,True
-35496,False
+35496,True
 35497,False
 35498,False
 35499,False
@@ -35512,7 +35512,7 @@ ID,connected
 35510,False
 35511,True
 35512,True
-35513,False
+35513,True
 35514,True
 35515,True
 35516,True
@@ -35586,7 +35586,7 @@ ID,connected
 35584,False
 35585,True
 35586,True
-35587,False
+35587,True
 35588,False
 35589,False
 35590,False
@@ -35662,14 +35662,14 @@ ID,connected
 35660,True
 35661,False
 35662,True
-35663,False
+35663,True
 35664,False
 35665,False
 35666,True
 35667,True
 35668,True
 35669,True
-35670,False
+35670,True
 35671,False
 35672,False
 35673,False
@@ -35680,7 +35680,7 @@ ID,connected
 35678,False
 35679,False
 35680,True
-35681,False
+35681,True
 35682,False
 35683,False
 35684,False
@@ -35701,7 +35701,7 @@ ID,connected
 35699,False
 35700,False
 35701,False
-35702,False
+35702,True
 35703,False
 35704,False
 35705,False
@@ -35727,7 +35727,7 @@ ID,connected
 35725,True
 35726,True
 35727,True
-35728,False
+35728,True
 35729,False
 35730,False
 35731,False
@@ -35860,7 +35860,7 @@ ID,connected
 35858,False
 35859,False
 35860,True
-35861,False
+35861,True
 35862,False
 35863,False
 35864,False
@@ -35875,7 +35875,7 @@ ID,connected
 35873,False
 35874,False
 35875,True
-35876,False
+35876,True
 35877,False
 35878,True
 35879,False
@@ -35932,10 +35932,10 @@ ID,connected
 35930,False
 35931,False
 35932,False
-35933,True
+35933,False
 35934,False
 35935,True
-35936,False
+35936,True
 35937,False
 35938,True
 35939,False
@@ -35952,7 +35952,7 @@ ID,connected
 35950,False
 35951,False
 35952,False
-35953,False
+35953,True
 35954,False
 35955,False
 35956,False
@@ -35972,7 +35972,7 @@ ID,connected
 35970,False
 35971,False
 35972,False
-35973,False
+35973,True
 35974,False
 35975,False
 35976,False
@@ -35995,7 +35995,7 @@ ID,connected
 35993,False
 35994,True
 35995,True
-35996,False
+35996,True
 35997,False
 35998,False
 35999,False
@@ -36069,7 +36069,7 @@ ID,connected
 36067,False
 36068,False
 36069,False
-36070,False
+36070,True
 36071,False
 36072,False
 36073,False
@@ -36229,10 +36229,10 @@ ID,connected
 36227,False
 36228,False
 36229,False
-36230,False
+36230,True
 36231,False
 36232,True
-36233,False
+36233,True
 36234,False
 36235,False
 36236,False
@@ -36251,7 +36251,7 @@ ID,connected
 36249,False
 36250,False
 36251,False
-36252,True
+36252,False
 36253,False
 36254,False
 36255,False
@@ -36259,7 +36259,7 @@ ID,connected
 36257,False
 36258,True
 36259,True
-36260,False
+36260,True
 36261,False
 36262,False
 36263,True
@@ -36282,7 +36282,7 @@ ID,connected
 36280,True
 36281,False
 36282,False
-36283,False
+36283,True
 36284,False
 36285,False
 36286,False
@@ -36298,7 +36298,7 @@ ID,connected
 36296,True
 36297,True
 36298,False
-36299,False
+36299,True
 36300,False
 36301,False
 36302,False
@@ -36316,7 +36316,7 @@ ID,connected
 36314,False
 36315,True
 36316,True
-36317,False
+36317,True
 36318,False
 36319,True
 36320,False
@@ -36361,7 +36361,7 @@ ID,connected
 36359,False
 36360,False
 36361,True
-36362,False
+36362,True
 36363,False
 36364,False
 36365,True
@@ -36404,7 +36404,7 @@ ID,connected
 36402,False
 36403,False
 36404,False
-36405,False
+36405,True
 36406,False
 36407,False
 36408,False
@@ -36434,7 +36434,7 @@ ID,connected
 36432,False
 36433,False
 36434,True
-36435,False
+36435,True
 36436,False
 36437,False
 36438,False
@@ -36502,13 +36502,13 @@ ID,connected
 36500,True
 36501,True
 36502,True
-36503,False
+36503,True
 36504,False
 36505,False
 36506,False
 36507,True
 36508,False
-36509,False
+36509,True
 36510,False
 36511,False
 36512,False
@@ -36537,7 +36537,7 @@ ID,connected
 36535,False
 36536,False
 36537,True
-36538,False
+36538,True
 36539,False
 36540,False
 36541,False
@@ -36699,10 +36699,10 @@ ID,connected
 36697,False
 36698,False
 36699,False
-36700,False
+36700,True
 36701,False
 36702,True
-36703,False
+36703,True
 36704,False
 36705,True
 36706,True
@@ -36754,7 +36754,7 @@ ID,connected
 36752,False
 36753,False
 36754,True
-36755,False
+36755,True
 36756,False
 36757,False
 36758,False
@@ -36771,7 +36771,7 @@ ID,connected
 36769,False
 36770,False
 36771,False
-36772,False
+36772,True
 36773,False
 36774,True
 36775,False
@@ -36784,20 +36784,20 @@ ID,connected
 36782,False
 36783,True
 36784,False
-36785,False
+36785,True
 36786,False
 36787,False
 36788,True
 36789,False
 36790,False
 36791,True
-36792,False
+36792,True
 36793,False
 36794,False
 36795,False
 36796,False
 36797,False
-36798,False
+36798,True
 36799,False
 36800,True
 36801,True
@@ -36813,7 +36813,7 @@ ID,connected
 36811,False
 36812,True
 36813,False
-36814,False
+36814,True
 36815,False
 36816,False
 36817,False
@@ -36900,7 +36900,7 @@ ID,connected
 36898,False
 36899,False
 36900,True
-36901,False
+36901,True
 36902,True
 36903,True
 36904,True
@@ -36910,7 +36910,7 @@ ID,connected
 36908,False
 36909,True
 36910,True
-36911,False
+36911,True
 36912,False
 36913,False
 36914,True
@@ -36944,7 +36944,7 @@ ID,connected
 36942,False
 36943,True
 36944,True
-36945,False
+36945,True
 36946,True
 36947,False
 36948,True
@@ -36988,7 +36988,7 @@ ID,connected
 36986,False
 36987,False
 36988,True
-36989,True
+36989,False
 36990,False
 36991,False
 36992,False
@@ -37017,7 +37017,7 @@ ID,connected
 37015,True
 37016,True
 37017,True
-37018,False
+37018,True
 37019,False
 37020,False
 37021,False
@@ -37047,7 +37047,7 @@ ID,connected
 37045,True
 37046,True
 37047,True
-37048,False
+37048,True
 37049,True
 37050,True
 37051,True
@@ -37074,11 +37074,11 @@ ID,connected
 37072,False
 37073,True
 37074,True
-37075,False
+37075,True
 37076,False
 37077,False
 37078,False
-37079,False
+37079,True
 37080,True
 37081,False
 37082,False
@@ -37119,7 +37119,7 @@ ID,connected
 37117,True
 37118,True
 37119,True
-37120,False
+37120,True
 37121,False
 37122,False
 37123,True
@@ -37169,7 +37169,7 @@ ID,connected
 37167,True
 37168,True
 37169,True
-37170,False
+37170,True
 37171,False
 37172,False
 37173,False
@@ -37209,7 +37209,7 @@ ID,connected
 37207,False
 37208,False
 37209,False
-37210,False
+37210,True
 37211,False
 37212,True
 37213,True
@@ -37265,7 +37265,7 @@ ID,connected
 37263,False
 37264,False
 37265,True
-37266,False
+37266,True
 37267,False
 37268,False
 37269,False
@@ -37296,7 +37296,7 @@ ID,connected
 37294,True
 37295,False
 37296,False
-37297,False
+37297,True
 37298,False
 37299,False
 37300,False
@@ -37306,7 +37306,7 @@ ID,connected
 37304,False
 37305,True
 37306,False
-37307,False
+37307,True
 37308,False
 37309,False
 37310,False
@@ -37323,7 +37323,7 @@ ID,connected
 37321,True
 37322,False
 37323,True
-37324,False
+37324,True
 37325,False
 37326,True
 37327,True
@@ -37372,7 +37372,7 @@ ID,connected
 37370,False
 37371,True
 37372,False
-37373,False
+37373,True
 37374,False
 37375,False
 37376,False
@@ -37400,9 +37400,9 @@ ID,connected
 37398,True
 37399,True
 37400,True
-37401,False
+37401,True
 37402,False
-37403,False
+37403,True
 37404,True
 37405,False
 37406,False
@@ -37414,7 +37414,7 @@ ID,connected
 37412,True
 37413,True
 37414,False
-37415,False
+37415,True
 37416,False
 37417,False
 37418,False
@@ -37460,7 +37460,7 @@ ID,connected
 37458,True
 37459,True
 37460,True
-37461,False
+37461,True
 37462,False
 37463,False
 37464,True
@@ -37512,7 +37512,7 @@ ID,connected
 37510,True
 37511,True
 37512,True
-37513,False
+37513,True
 37514,False
 37515,False
 37516,False
@@ -37534,8 +37534,8 @@ ID,connected
 37532,True
 37533,True
 37534,True
-37535,False
-37536,False
+37535,True
+37536,True
 37537,False
 37538,False
 37539,False
@@ -37561,7 +37561,7 @@ ID,connected
 37559,False
 37560,False
 37561,True
-37562,False
+37562,True
 37563,False
 37564,False
 37565,False
@@ -37632,7 +37632,7 @@ ID,connected
 37630,False
 37631,False
 37632,False
-37633,False
+37633,True
 37634,False
 37635,True
 37636,False
@@ -37678,7 +37678,7 @@ ID,connected
 37676,False
 37677,False
 37678,True
-37679,False
+37679,True
 37680,True
 37681,True
 37682,False
@@ -37691,7 +37691,7 @@ ID,connected
 37689,False
 37690,False
 37691,True
-37692,False
+37692,True
 37693,True
 37694,False
 37695,True
@@ -37749,7 +37749,7 @@ ID,connected
 37747,True
 37748,True
 37749,True
-37750,False
+37750,True
 37751,False
 37752,False
 37753,False
@@ -37805,7 +37805,7 @@ ID,connected
 37803,True
 37804,True
 37805,True
-37806,False
+37806,True
 37807,False
 37808,False
 37809,False
@@ -37829,7 +37829,7 @@ ID,connected
 37827,False
 37828,False
 37829,False
-37830,False
+37830,True
 37831,True
 37832,False
 37833,False
@@ -37869,7 +37869,7 @@ ID,connected
 37867,False
 37868,False
 37869,True
-37870,False
+37870,True
 37871,True
 37872,True
 37873,True
@@ -37891,7 +37891,7 @@ ID,connected
 37889,False
 37890,False
 37891,False
-37892,False
+37892,True
 37893,False
 37894,False
 37895,True
@@ -37912,7 +37912,7 @@ ID,connected
 37910,False
 37911,True
 37912,True
-37913,False
+37913,True
 37914,False
 37915,False
 37916,True
@@ -38123,13 +38123,13 @@ ID,connected
 38121,True
 38122,False
 38123,True
-38124,False
+38124,True
 38125,False
 38126,False
 38127,False
 38128,True
 38129,True
-38130,False
+38130,True
 38131,False
 38132,False
 38133,False
@@ -38231,7 +38231,7 @@ ID,connected
 38229,True
 38230,True
 38231,True
-38232,False
+38232,True
 38233,False
 38234,False
 38235,False
@@ -38273,8 +38273,8 @@ ID,connected
 38271,False
 38272,False
 38273,False
-38274,False
-38275,False
+38274,True
+38275,True
 38276,False
 38277,False
 38278,True
@@ -38293,11 +38293,11 @@ ID,connected
 38291,True
 38292,True
 38293,True
-38294,False
+38294,True
 38295,False
 38296,False
 38297,True
-38298,False
+38298,True
 38299,False
 38300,False
 38301,False
@@ -38346,7 +38346,7 @@ ID,connected
 38344,False
 38345,False
 38346,True
-38347,True
+38347,False
 38348,True
 38349,True
 38350,True
@@ -38397,7 +38397,7 @@ ID,connected
 38395,False
 38396,False
 38397,True
-38398,False
+38398,True
 38399,False
 38400,False
 38401,False
@@ -38447,7 +38447,7 @@ ID,connected
 38445,True
 38446,True
 38447,True
-38448,False
+38448,True
 38449,False
 38450,False
 38451,False
@@ -38470,7 +38470,7 @@ ID,connected
 38468,True
 38469,True
 38470,True
-38471,True
+38471,False
 38472,False
 38473,False
 38474,False
@@ -38484,7 +38484,7 @@ ID,connected
 38482,True
 38483,False
 38484,True
-38485,True
+38485,False
 38486,False
 38487,False
 38488,False
@@ -38493,7 +38493,7 @@ ID,connected
 38491,False
 38492,True
 38493,True
-38494,False
+38494,True
 38495,True
 38496,True
 38497,True
@@ -38562,7 +38562,7 @@ ID,connected
 38560,False
 38561,False
 38562,True
-38563,False
+38563,True
 38564,False
 38565,True
 38566,False
@@ -38584,7 +38584,7 @@ ID,connected
 38582,False
 38583,False
 38584,True
-38585,False
+38585,True
 38586,False
 38587,True
 38588,True
@@ -38603,7 +38603,7 @@ ID,connected
 38601,False
 38602,False
 38603,True
-38604,False
+38604,True
 38605,False
 38606,False
 38607,False
@@ -38679,7 +38679,7 @@ ID,connected
 38677,True
 38678,False
 38679,False
-38680,False
+38680,True
 38681,False
 38682,False
 38683,True
@@ -38749,10 +38749,10 @@ ID,connected
 38747,True
 38748,True
 38749,False
-38750,False
+38750,True
 38751,False
 38752,False
-38753,False
+38753,True
 38754,False
 38755,False
 38756,True
@@ -38761,7 +38761,7 @@ ID,connected
 38759,False
 38760,False
 38761,True
-38762,False
+38762,True
 38763,False
 38764,False
 38765,False
@@ -38853,7 +38853,7 @@ ID,connected
 38851,False
 38852,True
 38853,True
-38854,False
+38854,True
 38855,False
 38856,False
 38857,False
@@ -38966,7 +38966,7 @@ ID,connected
 38964,True
 38965,True
 38966,True
-38967,False
+38967,True
 38968,False
 38969,False
 38970,False
@@ -39031,7 +39031,7 @@ ID,connected
 39029,True
 39030,True
 39031,True
-39032,False
+39032,True
 39033,False
 39034,False
 39035,False
@@ -39075,7 +39075,7 @@ ID,connected
 39073,True
 39074,True
 39075,True
-39076,False
+39076,True
 39077,False
 39078,False
 39079,False
@@ -39107,7 +39107,7 @@ ID,connected
 39105,True
 39106,True
 39107,True
-39108,False
+39108,True
 39109,False
 39110,False
 39111,False
@@ -39123,7 +39123,7 @@ ID,connected
 39121,False
 39122,False
 39123,False
-39124,True
+39124,False
 39125,False
 39126,False
 39127,False
@@ -39145,7 +39145,7 @@ ID,connected
 39143,True
 39144,True
 39145,True
-39146,False
+39146,True
 39147,False
 39148,False
 39149,False
@@ -39245,7 +39245,7 @@ ID,connected
 39243,True
 39244,True
 39245,True
-39246,True
+39246,False
 39247,False
 39248,False
 39249,False
@@ -39257,7 +39257,7 @@ ID,connected
 39255,False
 39256,False
 39257,True
-39258,False
+39258,True
 39259,False
 39260,True
 39261,True
@@ -39279,7 +39279,7 @@ ID,connected
 39277,True
 39278,True
 39279,True
-39280,False
+39280,True
 39281,False
 39282,False
 39283,False
@@ -39335,7 +39335,7 @@ ID,connected
 39333,False
 39334,False
 39335,False
-39336,True
+39336,False
 39337,False
 39338,False
 39339,True
@@ -39596,12 +39596,12 @@ ID,connected
 39594,True
 39595,True
 39596,True
-39597,False
+39597,True
 39598,False
 39599,False
 39600,True
 39601,True
-39602,False
+39602,True
 39603,False
 39604,False
 39605,False
@@ -39629,7 +39629,7 @@ ID,connected
 39627,False
 39628,False
 39629,False
-39630,True
+39630,False
 39631,True
 39632,True
 39633,False
@@ -39664,7 +39664,7 @@ ID,connected
 39662,True
 39663,True
 39664,True
-39665,False
+39665,True
 39666,False
 39667,False
 39668,False
@@ -39681,8 +39681,8 @@ ID,connected
 39679,True
 39680,True
 39681,True
-39682,False
-39683,False
+39682,True
+39683,True
 39684,False
 39685,False
 39686,False
@@ -39703,7 +39703,7 @@ ID,connected
 39701,False
 39702,True
 39703,True
-39704,True
+39704,False
 39705,False
 39706,False
 39707,True
@@ -39737,7 +39737,7 @@ ID,connected
 39735,False
 39736,False
 39737,True
-39738,False
+39738,True
 39739,False
 39740,True
 39741,True
@@ -39879,7 +39879,7 @@ ID,connected
 39877,True
 39878,True
 39879,True
-39880,False
+39880,True
 39881,False
 39882,False
 39883,False
@@ -39890,7 +39890,7 @@ ID,connected
 39888,False
 39889,False
 39890,True
-39891,False
+39891,True
 39892,False
 39893,True
 39894,False
@@ -39944,7 +39944,7 @@ ID,connected
 39942,False
 39943,True
 39944,True
-39945,False
+39945,True
 39946,False
 39947,False
 39948,False
@@ -40002,14 +40002,14 @@ ID,connected
 40000,False
 40001,False
 40002,True
-40003,True
-40004,True
-40005,True
+40003,False
+40004,False
+40005,False
 40006,False
 40007,False
 40008,False
 40009,False
-40010,False
+40010,True
 40011,False
 40012,False
 40013,True
@@ -40040,7 +40040,7 @@ ID,connected
 40038,False
 40039,True
 40040,True
-40041,False
+40041,True
 40042,False
 40043,False
 40044,True
@@ -40058,7 +40058,7 @@ ID,connected
 40056,False
 40057,True
 40058,False
-40059,False
+40059,True
 40060,False
 40061,False
 40062,False
@@ -40099,9 +40099,9 @@ ID,connected
 40097,True
 40098,True
 40099,True
-40100,False
-40101,False
-40102,False
+40100,True
+40101,True
+40102,True
 40103,False
 40104,False
 40105,False
@@ -40147,7 +40147,7 @@ ID,connected
 40145,True
 40146,True
 40147,True
-40148,False
+40148,True
 40149,False
 40150,False
 40151,False
@@ -40337,7 +40337,7 @@ ID,connected
 40335,True
 40336,True
 40337,True
-40338,False
+40338,True
 40339,False
 40340,False
 40341,False
@@ -40388,7 +40388,7 @@ ID,connected
 40386,True
 40387,True
 40388,True
-40389,False
+40389,True
 40390,False
 40391,False
 40392,False
@@ -40406,7 +40406,7 @@ ID,connected
 40404,True
 40405,True
 40406,True
-40407,False
+40407,True
 40408,False
 40409,False
 40410,False
@@ -40434,7 +40434,7 @@ ID,connected
 40432,False
 40433,False
 40434,False
-40435,False
+40435,True
 40436,False
 40437,False
 40438,False
@@ -40579,7 +40579,7 @@ ID,connected
 40577,False
 40578,False
 40579,True
-40580,True
+40580,False
 40581,True
 40582,True
 40583,True
@@ -40599,7 +40599,7 @@ ID,connected
 40597,True
 40598,True
 40599,True
-40600,False
+40600,True
 40601,False
 40602,False
 40603,True
@@ -40751,7 +40751,7 @@ ID,connected
 40749,False
 40750,False
 40751,False
-40752,False
+40752,True
 40753,False
 40754,False
 40755,False
@@ -40777,7 +40777,7 @@ ID,connected
 40775,True
 40776,True
 40777,True
-40778,False
+40778,True
 40779,False
 40780,False
 40781,False
@@ -40810,7 +40810,7 @@ ID,connected
 40808,False
 40809,False
 40810,True
-40811,False
+40811,True
 40812,True
 40813,True
 40814,True
@@ -40862,7 +40862,7 @@ ID,connected
 40860,True
 40861,True
 40862,True
-40863,False
+40863,True
 40864,False
 40865,False
 40866,False
@@ -40893,7 +40893,7 @@ ID,connected
 40891,False
 40892,False
 40893,False
-40894,True
+40894,False
 40895,False
 40896,True
 40897,False
@@ -40913,7 +40913,7 @@ ID,connected
 40911,False
 40912,False
 40913,True
-40914,False
+40914,True
 40915,False
 40916,False
 40917,False
@@ -40960,7 +40960,7 @@ ID,connected
 40958,True
 40959,True
 40960,True
-40961,True
+40961,False
 40962,False
 40963,False
 40964,False
@@ -41080,7 +41080,7 @@ ID,connected
 41078,True
 41079,True
 41080,True
-41081,False
+41081,True
 41082,False
 41083,False
 41084,False
@@ -41127,14 +41127,14 @@ ID,connected
 41125,True
 41126,True
 41127,True
-41128,True
+41128,False
 41129,False
 41130,False
 41131,False
 41132,False
 41133,False
 41134,True
-41135,False
+41135,True
 41136,False
 41137,False
 41138,True
@@ -41210,7 +41210,7 @@ ID,connected
 41208,False
 41209,False
 41210,True
-41211,False
+41211,True
 41212,False
 41213,False
 41214,False
@@ -41371,7 +41371,7 @@ ID,connected
 41369,True
 41370,True
 41371,True
-41372,False
+41372,True
 41373,False
 41374,False
 41375,False
@@ -41413,7 +41413,7 @@ ID,connected
 41411,True
 41412,True
 41413,True
-41414,False
+41414,True
 41415,False
 41416,False
 41417,False
@@ -41450,7 +41450,7 @@ ID,connected
 41448,False
 41449,False
 41450,False
-41451,False
+41451,True
 41452,False
 41453,False
 41454,True
@@ -41470,7 +41470,7 @@ ID,connected
 41468,True
 41469,True
 41470,True
-41471,False
+41471,True
 41472,False
 41473,False
 41474,False
@@ -41637,7 +41637,7 @@ ID,connected
 41635,False
 41636,False
 41637,False
-41638,False
+41638,True
 41639,False
 41640,True
 41641,True
@@ -41875,7 +41875,7 @@ ID,connected
 41873,True
 41874,False
 41875,False
-41876,False
+41876,True
 41877,False
 41878,False
 41879,True
@@ -41910,10 +41910,10 @@ ID,connected
 41908,False
 41909,False
 41910,True
-41911,False
+41911,True
 41912,False
 41913,False
-41914,False
+41914,True
 41915,True
 41916,False
 41917,False
@@ -41933,7 +41933,7 @@ ID,connected
 41931,True
 41932,True
 41933,True
-41934,False
+41934,True
 41935,False
 41936,False
 41937,False
@@ -41988,7 +41988,7 @@ ID,connected
 41986,False
 41987,True
 41988,True
-41989,False
+41989,True
 41990,False
 41991,False
 41992,False
@@ -42055,7 +42055,7 @@ ID,connected
 42053,True
 42054,True
 42055,True
-42056,False
+42056,True
 42057,False
 42058,False
 42059,False
@@ -42167,7 +42167,7 @@ ID,connected
 42165,False
 42166,True
 42167,True
-42168,False
+42168,True
 42169,False
 42170,False
 42171,False
@@ -42203,7 +42203,7 @@ ID,connected
 42201,False
 42202,False
 42203,True
-42204,False
+42204,True
 42205,False
 42206,True
 42207,True
@@ -42214,8 +42214,8 @@ ID,connected
 42212,False
 42213,True
 42214,True
-42215,False
-42216,False
+42215,True
+42216,True
 42217,False
 42218,False
 42219,False
@@ -42295,7 +42295,7 @@ ID,connected
 42293,False
 42294,False
 42295,True
-42296,False
+42296,True
 42297,False
 42298,False
 42299,True
@@ -42393,7 +42393,7 @@ ID,connected
 42391,True
 42392,True
 42393,False
-42394,False
+42394,True
 42395,False
 42396,True
 42397,False
@@ -42416,8 +42416,8 @@ ID,connected
 42414,True
 42415,True
 42416,True
-42417,False
-42418,False
+42417,True
+42418,True
 42419,False
 42420,False
 42421,False
@@ -42538,7 +42538,7 @@ ID,connected
 42536,False
 42537,False
 42538,True
-42539,False
+42539,True
 42540,False
 42541,True
 42542,False
