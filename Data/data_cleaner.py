@@ -73,41 +73,41 @@ def cleaner(train, feature=None, morph=None, pre_morph=False):
             copy=False,
             ))
     
-            ############## FE: SIMILARITY ##############
-            data["fw_similarity"] = data.apply(row_feature_similarity, axis=1)
+    ############## FE: SIMILARITY ##############
+    data["fw_similarity"] = data.apply(row_feature_similarity, axis=1)
         
-        ############## FE: PROJECTION GROUP ##############
-        # generate projection group as pre->post
-        data["projection_group"] = (
-            data["pre_brain_area"].astype(str)
-            + "->"
-            + data["post_brain_area"].astype(str)
-        )
+    ############## FE: PROJECTION GROUP ##############
+    # generate projection group as pre->post
+    data["projection_group"] = (
+        data["pre_brain_area"].astype(str)
+        + "->"
+        + data["post_brain_area"].astype(str)
+    )
 
-        ############## FE: COMBINE COORDINATES ##############
-        data = dist_column(data, "axonal_coords", "axonal_coor_")
-        data = dist_column(data, "dendritic_coords", "dendritic_coor_")
-        data = dist_column(data, "pre_rf_coords", "pre_rf_")
-        data = dist_column(data, "post_rf_coords", "post_rf_")
-        data = dist_column(data, "pre_nucleus_coords", "pre_nucleus_[xyz]")
-        data = dist_column(data, "post_nucleus_coords", "post_nucleus_[xyz]")
+    ############## FE: COMBINE COORDINATES ##############
+    data = dist_column(data, "axonal_coords", "axonal_coor_")
+    data = dist_column(data, "dendritic_coords", "dendritic_coor_")
+    data = dist_column(data, "pre_rf_coords", "pre_rf_")
+    data = dist_column(data, "post_rf_coords", "post_rf_")
+    data = dist_column(data, "pre_nucleus_coords", "pre_nucleus_[xyz]")
+    data = dist_column(data, "post_nucleus_coords", "post_nucleus_[xyz]")
 
-        ############## FE: DISTANCE FROM PRE-SYNAPTIC NUCLEUS TO AXON ##############
-        data["nuclei_adp_dist"] =  data[["pre_nucleus_coords", "axonal_coords"]].apply(
-            lambda x: math.dist(x["pre_nucleus_coords"], x["axonal_coords"]), axis=1)
+    ############## FE: DISTANCE FROM PRE-SYNAPTIC NUCLEUS TO AXON ##############
+    data["nuclei_adp_dist"] =  data[["pre_nucleus_coords", "axonal_coords"]].apply(
+    lambda x: math.dist(x["pre_nucleus_coords"], x["axonal_coords"]), axis=1)
         
-        ############## FE: PER-NEURON ADP COUNTS ##############
-        counts = data.groupby('pre_nucleus_id').count() # count of each presynaptic neuron
-        counts = counts["ID"]
-        total_connections = data[["pre_nucleus_id", "connected"]].groupby('pre_nucleus_id').sum()
-        total_connections = total_connections["connected"]
-        adp_counts = pd.DataFrame([counts, total_connections]).transpose()
-        adp_counts = adp_counts.rename(columns={"ID":"count"})
-        adp_counts["connect_rate"] = adp_counts["connected"]/adp_counts["count"]
-        data = data.merge(adp_counts, left_on='pre_nucleus_id', right_on='pre_nucleus_id')
+    ############## FE: PER-NEURON ADP COUNTS ##############
+    counts = data.groupby('pre_nucleus_id').count() # count of each presynaptic neuron
+    counts = counts["ID"]
+    total_connections = data[["pre_nucleus_id", "connected"]].groupby('pre_nucleus_id').sum()
+    total_connections = total_connections["connected"]
+    adp_counts = pd.DataFrame([counts, total_connections]).transpose()
+    adp_counts = adp_counts.rename(columns={"ID":"ADP_total", "connected":"connect_total"})
+    adp_counts["connect_rate"] = adp_counts["connect_total"]/adp_counts["ADP_total"]
+    data = data.merge(adp_counts, left_on='pre_nucleus_id', right_on='pre_nucleus_id')
 
 
-        return data
+    return data
 
 
 #cosine similarity function
