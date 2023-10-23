@@ -86,13 +86,14 @@ def validation(model, valid, param_grid):
                       scoring = "balanced_accuracy",
                       refit = 'balanced_accuracy')
     
-    cv.fit(valid.drop('connected', axis=1),valid["connected"])
+    #OverSampling
+    ros = RandomOverSampler(random_state=0)
+    X_resampled, y_resampled = ros.fit_resample(
+        valid.drop('connected', axis=1), valid["connected"]
+    )
+
+    cv.fit(X_resampled,y_resampled)
 
     optimum_params = cv.best_params_
 
     return model.set_params(optimum_params)
-
-
-
-
-
