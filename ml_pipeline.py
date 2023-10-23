@@ -10,8 +10,8 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import balanced_accuracy_score, make_scorer
 from imblearn.over_sampling import RandomOverSampler
 
-## REMOVE train/test/val/query split because it's in grace's code
-def train_predict_submission(train, query, models):
+## CHANGE models input in function train_n_predict to dictionary
+def train_n_predict(train_X, train_y, query_X, query_y, models):
     """
     Function that takes in a dataframe of data and outputs 
     a fitted "optimal" model
@@ -39,8 +39,8 @@ def train_predict_submission(train, query, models):
             ("model", model)
         ])
 
-        X = query.drop('connected', axis=1)
-        y = query["connected"]
+        X = query_X.copy()
+        y = query_y.copy()
 
         #OverSampling
         ros = RandomOverSampler(random_state=0)
@@ -62,7 +62,7 @@ def train_predict_submission(train, query, models):
     return accuracy_score
 
 
-def validation(model, valid, param_grid):
+def validation(model, valid_X, valid_y, param_grid):
     """
     Function that outputs a model with optimal hyperparameters
     based on a validation set using grid search
@@ -89,7 +89,7 @@ def validation(model, valid, param_grid):
     #OverSampling
     ros = RandomOverSampler(random_state=0)
     X_resampled, y_resampled = ros.fit_resample(
-        valid.drop('connected', axis=1), valid["connected"]
+        valid_X, valid_y
     )
 
     cv.fit(X_resampled,y_resampled)
