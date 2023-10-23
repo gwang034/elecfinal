@@ -10,7 +10,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import balanced_accuracy_score, make_scorer
 from imblearn.over_sampling import RandomOverSampler
 
-
+## REMOVE train/test/val/query split because it's in grace's code
 def train_predict_submission(train, query, models):
     """
     Function that takes in a dataframe of data and outputs 
