@@ -10,7 +10,6 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import balanced_accuracy_score, make_scorer
 from imblearn.over_sampling import RandomOverSampler
 
-## CHANGE models input in function train_n_predict to dictionary
 def train_n_predict(train_X, train_y, query_X, query_y, models):
     """
     Function that takes in a dataframe of data and outputs 
@@ -20,23 +19,22 @@ def train_n_predict(train_X, train_y, query_X, query_y, models):
     - train: training set
     - valid: validation set 
     - query: query set
-    - models: list of models to train and predict on, with set 
+    - models: dictionary of (model_name : model function) to train and predict on, with optimized 
     parameters already.
 
     Outputs:
-    ##TO DO: put in best_clf oputput
-    - best_clf: The optimum classifier fitted over training data
+    - best_clf: The optimum classifier function fitted over training data
 
     - accuracy_score: list of accuracies based on order of models
     passed.
     """
-    accuracy_score = []
+    accuracy_score = {}
     for model in models:
 
         #Defining a pipeline
         pipe = Pipeline([
             ("scaler", StandardScaler()),
-            ("model", model)
+            ("model", models[model])
         ])
 
         X = query_X.copy()
@@ -57,9 +55,13 @@ def train_n_predict(train_X, train_y, query_X, query_y, models):
         balanced_accuracy = balanced_accuracy_score(
             y, 
             X["pred"] > 0.5)
-        accuracy_score.append(balanced_accuracy)
+        accuracy_score[model] = balanced_accuracy
 
-    return accuracy_score
+    best_clf_name = max(accuracy_score, key = accuracy_score.get)
+    best_clf = models[best_clf_name]
+
+    ### TRAIN OVER TRAINING DATA
+    return accuracy_score, best_clf
 
 
 def validation(model, valid_X, valid_y, param_grid):
