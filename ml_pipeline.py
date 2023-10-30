@@ -44,8 +44,7 @@ def clean_split(train_path, feature_path=None, morph_path=None):
 
 
 
-## REMOVE train/test/val/query split because it's in grace's code
-def train_predict_submission(train, query, models):
+def train_n_predict(train_X, train_y, query_X, query_y, models):
     """
     Function that takes in a dataframe of data and outputs 
     a fitted "optimal" model
@@ -54,27 +53,26 @@ def train_predict_submission(train, query, models):
     - train: training set
     - valid: validation set 
     - query: query set
-    - models: list of models to train and predict on, with set 
+    - models: dictionary of (model_name : model function) to train and predict on, with optimized 
     parameters already.
 
     Outputs:
-    ##TO DO: put in best_clf oputput
-    - best_clf: The optimum classifier fitted over training data
+    - best_clf: The optimum classifier function fitted over training data
 
     - accuracy_score: list of accuracies based on order of models
     passed.
     """
-    accuracy_score = []
+    accuracy_score = {}
     for model in models:
 
         #Defining a pipeline
         pipe = Pipeline([
             ("scaler", StandardScaler()),
-            ("model", model)
+            ("model", models[model])
         ])
 
-        X = query.drop('connected', axis=1)
-        y = query["connected"]
+        X = query_X.copy()
+        y = query_y.copy()
 
         #OverSampling
         ros = RandomOverSampler(random_state=0)
@@ -91,12 +89,16 @@ def train_predict_submission(train, query, models):
         balanced_accuracy = balanced_accuracy_score(
             y, 
             X["pred"] > 0.5)
-        accuracy_score.append(balanced_accuracy)
+        accuracy_score[model] = balanced_accuracy
 
-    return accuracy_score
+    best_clf_name = max(accuracy_score, key = accuracy_score.get)
+    best_clf = models[best_clf_name]
+
+    ### TRAIN OVER TRAINING DATA
+    return accuracy_score, best_clf
 
 
-def validation(model, valid, param_grid):
+def validation(model, valid_X, valid_y, param_grid):
     """
     Function that outputs a model with optimal hyperparameters
     based on a validation set using grid search
@@ -108,8 +110,9 @@ def validation(model, valid, param_grid):
     {'C': [0.001,0.01,0.1,1,10], 
     'gamma':[0.1,1,10,100], 
     'kernel':('linear', 'rbf')}
-    valid: validation set of data (pandas df)
-
+    valid_X: validation X of data (pandas df)
+    valid_y: validation y of data
+    
     Outputs: 
     clf: provided model with optimum hyperparameters
     """
@@ -120,13 +123,14 @@ def validation(model, valid, param_grid):
                       scoring = "balanced_accuracy",
                       refit = 'balanced_accuracy')
     
-    cv.fit(valid.drop('connected', axis=1),valid["connected"])
+    #OverSampling
+    ros = RandomOverSampler(random_state=0)
+    X_resampled, y_resampled = ros.fit_resample(
+        valid_X, valid_y
+    )
+
+    cv.fit(X_resampled,y_resampled)
 
     optimum_params = cv.best_params_
 
     return model.set_params(optimum_params)
-
-
-
-
-
