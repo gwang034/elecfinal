@@ -76,8 +76,9 @@ def validation(model, valid_X, valid_y, param_grid):
     {'C': [0.001,0.01,0.1,1,10], 
     'gamma':[0.1,1,10,100], 
     'kernel':('linear', 'rbf')}
-    valid: validation set of data (pandas df)
-
+    valid_X: validation X of data (pandas df)
+    valid_y: validation y of data
+    
     Outputs: 
     clf: provided model with optimum hyperparameters
     """
