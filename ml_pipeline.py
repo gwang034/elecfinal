@@ -17,7 +17,6 @@ def train_n_predict(train_X, train_y, query_X, query_y, models):
 
     Inputs:
     - train: training set
-    - valid: validation set 
     - query: query set
     - models: dictionary of (model_name : model function) to train and predict on, with optimized 
     parameters already.
@@ -78,7 +77,7 @@ def validation(model, valid_X, valid_y, param_grid):
     'kernel':('linear', 'rbf')}
     valid_X: validation X of data (pandas df)
     valid_y: validation y of data
-    
+
     Outputs: 
     clf: provided model with optimum hyperparameters
     """
@@ -99,4 +98,4 @@ def validation(model, valid_X, valid_y, param_grid):
 
     optimum_params = cv.best_params_
 
-    return model.set_params(optimum_params)
+    return model.set_params(**optimum_params)
