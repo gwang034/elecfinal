@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import math
+import sklearn.preprocessing
 
 def cleaner(train, feature=None, morph=None, pre_morph=False, submission=False):
     """
@@ -107,7 +108,11 @@ def cleaner(train, feature=None, morph=None, pre_morph=False, submission=False):
         adp_counts["connect_rate"] = adp_counts["connect_total"]/adp_counts["ADP_total"]
         data = data.merge(adp_counts, left_on='pre_nucleus_id', right_on='pre_nucleus_id')
 
-
+    ############## STANDARDIZE ALL NUMERIC DATA #############
+    num_cols = data.select_dtypes(include='number').drop(columns=['ID', 'pre_nucleus_id', 'post_nucleus_id'])
+    num_cols = num_cols.columns
+    for column in num_cols:
+        data[column] = sklearn.preprocessing.StandardScaler().fit_transform(np.array(data[column]).reshape(-1, 1))
     return data
 
 
