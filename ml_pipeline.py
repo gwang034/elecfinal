@@ -9,6 +9,40 @@ from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import balanced_accuracy_score, make_scorer
 from imblearn.over_sampling import RandomOverSampler
+import sys
+import numpy as np
+from sklearn import model_selection
+from Data.data_cleaner import cleaner
+
+### CHANGE PATH FOR YOUR COMPUTER
+GITHUB_PATH = '/Users/gracewang/Documents/GitHub/elecfinal'
+sys.path.insert(0, GITHUB_PATH)
+
+def clean_split(train_path, feature_path=None, morph_path=None):
+    """
+    Function that performs data cleaning and splitting
+
+    Inputs:
+    - train_path: the path to the training data
+    - feature_path: the path to the feature data (default None)
+    - morph_path: the path to the morph data (default None)
+
+    Outputs:
+    - X_train, y_train: training data set
+    - X_val, y_val: validation data set
+    - X_query, y_query: query data set
+    """
+    data = cleaner(train_path, feature_path, morph_path)
+    ## Split data into training, validation, query, and testing
+    X = data.drop(columns='connected')
+    y = data['connected']
+    X_train, X_oth, y_train, y_oth = model_selection.train_test_split(X, y, test_size=0.5, random_state=42)
+    X_val, X_query, y_val, y_query = model_selection.train_test_split(X_oth, y_oth, test_size=0.25, random_state=42)
+    return X_train, X_val, X_query, y_train, y_val, y_query
+
+
+
+
 
 def train_n_predict(train_X, train_y, query_X, query_y, models):
     """
