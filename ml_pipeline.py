@@ -94,6 +94,7 @@ def train_n_predict(train_X, train_y, query_X, query_y, models):
     best_clf = models[best_clf_name]
 
     ### TRAIN OVER TRAINING DATA
+    best_clf.fit(train_x, train_y)
     return accuracy_score, best_clf
 
 
