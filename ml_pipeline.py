@@ -13,6 +13,7 @@ import sys
 import numpy as np
 from sklearn import model_selection
 from Data.data_cleaner import cleaner
+import random
 
 ### CHANGE PATH FOR YOUR COMPUTER
 GITHUB_PATH = '/Users/gracewang/Documents/GitHub/elecfinal'
@@ -32,12 +33,45 @@ def clean_split(train_path, feature_path=None, morph_path=None):
     - X_val, y_val: validation data set
     - X_query, y_query: query data set
     """
+    # clean the data and perform feature engineering
     data = cleaner(train_path, feature_path, morph_path)
-    ## Split data into training, validation, query, and testing
-    X = data.drop(columns='connected')
-    y = data['connected']
-    X_train, X_oth, y_train, y_oth = model_selection.train_test_split(X, y, test_size=0.5, random_state=42)
-    X_val, X_query, y_val, y_query = model_selection.train_test_split(X_oth, y_oth, test_size=0.25, random_state=42)
+
+    # perform stratified sampling of pre-synaptic neurons
+    pre_nucleus_ids = pd.unique(data["pre_nucleus_id"])
+    print(len(pre_nucleus_ids))
+
+    # Use 60% of the pre-nucleus ids and 60% of the post-nucleus ids in the training\
+    print(len(pre_nucleus_ids))
+    train_nucleus_idx = random.sample(range(0, len(pre_nucleus_ids)), int(np.floor(0.6*len(pre_nucleus_ids))))
+    train_nucleus_ids = pre_nucleus_ids[train_nucleus_idx]
+    training = data[data["pre_nucleus_id"].isin(train_nucleus_ids)]
+    X_train = training.drop(columns='connected')
+    y_train = training['connected']
+    pre_nucleus_ids = np.delete(pre_nucleus_ids, train_nucleus_idx)
+
+    # Use 20% for query set
+    print(len(pre_nucleus_ids))
+    query_nucleus_idx = random.sample(range(0, len(pre_nucleus_ids)), int(np.floor(0.5*len(pre_nucleus_ids))))
+    query_nucleus_ids = pre_nucleus_ids[query_nucleus_idx]
+    query = data[data["pre_nucleus_id"].isin(query_nucleus_ids)]
+    X_query = query.drop(columns='connected')
+    y_query = query['connected']
+    pre_nucleus_ids = np.delete(pre_nucleus_ids, query_nucleus_idx)
+
+
+    # Use 20% for validation
+    print(len(pre_nucleus_ids))
+    validation = data[data["pre_nucleus_id"].isin(pre_nucleus_ids)]
+    X_val = validation.drop(columns='connected')
+    y_val = validation['connected']
+
+    # ## Split data into training, validation, query, and testing
+    # X = data.drop(columns='connected')
+    # y = data['connected']
+    # X_train, X_oth, y_train, y_oth = model_selection.train_test_split(X, y, test_size=0.5, random_state=42)
+    # X_val, X_query, y_val, y_query = model_selection.train_test_split(X_oth, y_oth, test_size=0.25, random_state=42)
+
+
     return X_train, X_val, X_query, y_train, y_val, y_query
 
 
