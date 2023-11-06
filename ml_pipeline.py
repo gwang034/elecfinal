@@ -38,10 +38,10 @@ def clean_split(train_path, feature_path=None, morph_path=None):
 
     # perform stratified sampling of pre-synaptic neurons
     pre_nucleus_ids = pd.unique(data["pre_nucleus_id"])
-    print(len(pre_nucleus_ids))
+    #print(len(pre_nucleus_ids))
 
     # Use 60% of the pre-nucleus ids and 60% of the post-nucleus ids in the training\
-    print(len(pre_nucleus_ids))
+    #print(len(pre_nucleus_ids))
     train_nucleus_idx = random.sample(range(0, len(pre_nucleus_ids)), int(np.floor(0.6*len(pre_nucleus_ids))))
     train_nucleus_ids = pre_nucleus_ids[train_nucleus_idx]
     training = data[data["pre_nucleus_id"].isin(train_nucleus_ids)]
@@ -50,7 +50,7 @@ def clean_split(train_path, feature_path=None, morph_path=None):
     pre_nucleus_ids = np.delete(pre_nucleus_ids, train_nucleus_idx)
 
     # Use 20% for query set
-    print(len(pre_nucleus_ids))
+    #print(len(pre_nucleus_ids))
     query_nucleus_idx = random.sample(range(0, len(pre_nucleus_ids)), int(np.floor(0.5*len(pre_nucleus_ids))))
     query_nucleus_ids = pre_nucleus_ids[query_nucleus_idx]
     query = data[data["pre_nucleus_id"].isin(query_nucleus_ids)]
@@ -60,7 +60,7 @@ def clean_split(train_path, feature_path=None, morph_path=None):
 
 
     # Use 20% for validation
-    print(len(pre_nucleus_ids))
+    #print(len(pre_nucleus_ids))
     validation = data[data["pre_nucleus_id"].isin(pre_nucleus_ids)]
     X_val = validation.drop(columns='connected')
     y_val = validation['connected']
