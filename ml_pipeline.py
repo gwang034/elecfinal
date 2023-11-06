@@ -108,7 +108,7 @@ def train_n_predict(train_X, train_y, query_X, query_y, models):
         y = query_y.copy()
 
         #OverSampling
-        ros = RandomOverSampler(random_state=0)
+        ros = RandomOverSampler(random_state=0, sampling_strategy = 'minority')
         X_resampled, y_resampled = ros.fit_resample(
             X, y
         )
@@ -158,7 +158,7 @@ def validation(model, valid_X, valid_y, param_grid):
                       refit = 'balanced_accuracy')
     
     #OverSampling
-    ros = RandomOverSampler(random_state=0)
+    ros = RandomOverSampler(random_state=0, sampling_strategy = 'minority')
     X_resampled, y_resampled = ros.fit_resample(
         valid_X, valid_y
     )
