@@ -128,7 +128,13 @@ def train_n_predict(train_X, train_y, query_X, query_y, models):
     best_clf = models[best_clf_name]
 
     ### TRAIN OVER TRAINING DATA
-    best_clf.fit(train_X, train_y)
+
+    ros = RandomOverSampler(random_state=0, sampling_strategy = 'minority')
+    train_X_resampled, train_y_resampled = ros.fit_resample(
+            train_X, train_y
+        )
+
+    best_clf.fit(train_X_resampled, train_y_resampled)
     return accuracy_score, best_clf
 
 
@@ -149,6 +155,7 @@ def validation(model, valid_X, valid_y, param_grid):
 
     Outputs: 
     clf: provided model with optimum hyperparameters
+    perf: performance of the model during CV
     """
     scoring = {"balanced accuracy": make_scorer(balanced_accuracy_score)}
     cv = GridSearchCV(model, 
