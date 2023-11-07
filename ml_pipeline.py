@@ -118,10 +118,10 @@ def train_n_predict(train_X, train_y, query_X, query_y, models):
 
         #Predicting from soft labels
         ## TO DO: FIX THIS MAYBE
-        X["pred"] = pipe.predict_proba(X)[:, 1]
+        X_resampled["pred"] = pipe.predict_proba(X_resampled)[:, 1]
         balanced_accuracy = balanced_accuracy_score(
-            y, 
-            X["pred"] > 0.5)
+            y_resampled, 
+            X_resampled["pred"] > 0.5)
         accuracy_score[model] = balanced_accuracy
 
     best_clf_name = max(accuracy_score, key = accuracy_score.get)
