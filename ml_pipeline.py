@@ -108,7 +108,7 @@ def train_n_predict(train_X, train_y, query_X, query_y, models):
         y = query_y.copy()
 
         #OverSampling
-        ros = RandomOverSampler(random_state=0)
+        ros = RandomOverSampler(random_state=0, sampling_strategy = 'minority')
         X_resampled, y_resampled = ros.fit_resample(
             X, y
         )
@@ -118,17 +118,23 @@ def train_n_predict(train_X, train_y, query_X, query_y, models):
 
         #Predicting from soft labels
         ## TO DO: FIX THIS MAYBE
-        X["pred"] = pipe.predict_proba(X)[:, 1]
+        X_resampled["pred"] = pipe.predict_proba(X_resampled)[:, 1]
         balanced_accuracy = balanced_accuracy_score(
-            y, 
-            X["pred"] > 0.5)
+            y_resampled, 
+            X_resampled["pred"] > 0.5)
         accuracy_score[model] = balanced_accuracy
 
     best_clf_name = max(accuracy_score, key = accuracy_score.get)
     best_clf = models[best_clf_name]
 
     ### TRAIN OVER TRAINING DATA
-    best_clf.fit(train_X, train_y)
+
+    ros = RandomOverSampler(random_state=0, sampling_strategy = 'minority')
+    train_X_resampled, train_y_resampled = ros.fit_resample(
+            train_X, train_y
+        )
+
+    best_clf.fit(train_X_resampled, train_y_resampled)
     return accuracy_score, best_clf
 
 
@@ -149,6 +155,7 @@ def validation(model, valid_X, valid_y, param_grid):
 
     Outputs: 
     clf: provided model with optimum hyperparameters
+    perf: performance of the model during CV
     """
     scoring = {"balanced accuracy": make_scorer(balanced_accuracy_score)}
     cv = GridSearchCV(model, 
@@ -158,7 +165,7 @@ def validation(model, valid_X, valid_y, param_grid):
                       refit = 'balanced_accuracy')
     
     #OverSampling
-    ros = RandomOverSampler(random_state=0)
+    ros = RandomOverSampler(random_state=0, sampling_strategy = 'minority')
     X_resampled, y_resampled = ros.fit_resample(
         valid_X, valid_y
     )
