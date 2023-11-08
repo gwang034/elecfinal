@@ -100,14 +100,15 @@ def cleaner(train, feature=None, morph=None, pre_morph=False, submission=False):
     ############## FE: PER-NEURON ADP COUNTS ##############
     if not submission:
         counts = data.groupby('pre_nucleus_id').count() # count of each presynaptic neuron
-        counts = counts["ID"]
-        total_connections = data[["pre_nucleus_id", "connected"]].groupby('pre_nucleus_id').sum()
-        total_connections = total_connections["connected"]
-        adp_counts = pd.DataFrame([counts, total_connections]).transpose()
-        adp_counts = adp_counts.rename(columns={"ID":"ADP_total", "connected":"connect_total"})
-        adp_counts["connect_rate"] = adp_counts["connect_total"]/adp_counts["ADP_total"]
-        print(data)
-        data = data.merge(adp_counts, how='left', left_on='pre_nucleus_id', right_on='pre_nucleus_id')
+        counts = pd.DataFrame(counts["ID"]).rename(columns={"ID":"ADP_total"})
+        
+        # total_connections = data[["pre_nucleus_id", "connected"]].groupby('pre_nucleus_id').sum()
+        # total_connections = total_connections["connected"]
+        # adp_counts = pd.DataFrame([counts, total_connections]).transpose()
+        # adp_counts = adp_counts.rename(columns={"ID":"ADP_total", "connected":"connect_total"})
+        # adp_counts["connect_rate"] = adp_counts["connect_total"]/adp_counts["ADP_total"]
+        # print(data)
+        data = data.merge(counts, how='left', left_on='pre_nucleus_id', right_on='pre_nucleus_id')
         print(data)
 
     ############## STANDARDIZE ALL NUMERIC DATA #############
