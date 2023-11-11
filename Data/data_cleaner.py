@@ -3,14 +3,14 @@ import numpy as np
 import math
 import sklearn.preprocessing
 
-def cleaner(train, feature=None, morph=None, pre_morph=False, submission=False):
+def cleaner(train, feature=None, morph_vec=None, pre_morph=False, submission=False):
     """
     Function that performs data cleaning and feature engineering for the data
 
     inputs:
     - train: path to training data
-    - feature: path to feature data, which is not available for the leaderboard data
-    - morph: path to morph data, which is not available for the leaderboard data
+    - feature: path to feature data
+    - morph_vec: path to imputed morph vector data
 
     outputs:
     - data: cleaned and feature engineered data
@@ -44,35 +44,46 @@ def cleaner(train, feature=None, morph=None, pre_morph=False, submission=False):
             validate="m:1",
             copy=False,
         ))
+    
+    ############## CONCAT IMPUTED MORPH VECTOR DATA ################
+    morph_vecs = pd.read_csv(morph_vec)
+    data.merge(morph_vecs, on="ID")
 
-    ############## CONCAT MORPH DATA ##############
-    if morph:
-        morph_embeddings = pd.read_csv(morph)
-        # join all morph_embed_i columns into a single np.array column
-        morph_embeddings["morph_embeddings"] = (
-            morph_embeddings.filter(regex="morph_emb_")
-            .sort_index(axis=1)
-            .apply(lambda x: np.array(x), axis=1)
-        )
-        # delete the morph_embed_i columns
-        morph_embeddings.drop(
-            morph_embeddings.filter(regex="morph_emb_").columns, axis=1, inplace=True
-        )
-        data = (
-        data.merge(
-            morph_embeddings.rename(columns=lambda x: "post_" + x),
-            how="left",
-            validate="m:1",
-            copy=False,
-        ))
-        if pre_morph:
-            data = (
-            data.merge(
-            morph_embeddings.rename(columns=lambda x: "pre_" + x),
-            how="left",
-            validate="m:1",
-            copy=False,
-            ))
+    ############## FE: CALCULATE DISTANCES BETWEEN IMPUTED MORPH EMBEDDINGS ###################
+    data["me_similarity"] = data.apply(row_feature_similarity, axis=1)
+
+
+
+
+
+    ############## OLD CODE: CONCAT MORPH DATA ##############
+    # if morph:
+    #     morph_embeddings = pd.read_csv(morph)
+    #     # join all morph_embed_i columns into a single np.array column
+    #     morph_embeddings["morph_embeddings"] = (
+    #         morph_embeddings.filter(regex="morph_emb_")
+    #         .sort_index(axis=1)
+    #         .apply(lambda x: np.array(x), axis=1)
+    #     )
+    #     # delete the morph_embed_i columns
+    #     morph_embeddings.drop(
+    #         morph_embeddings.filter(regex="morph_emb_").columns, axis=1, inplace=True
+    #     )
+    #     data = (
+    #     data.merge(
+    #         morph_embeddings.rename(columns=lambda x: "post_" + x),
+    #         how="left",
+    #         validate="m:1",
+    #         copy=False,
+    #     ))
+    #     if pre_morph:
+    #         data = (
+    #         data.merge(
+    #         morph_embeddings.rename(columns=lambda x: "pre_" + x),
+    #         how="left",
+    #         validate="m:1",
+    #         copy=False,
+    #         ))
     
     ############## FE: SIMILARITY ##############
     data["fw_similarity"] = data.apply(row_feature_similarity, axis=1)
@@ -88,8 +99,8 @@ def cleaner(train, feature=None, morph=None, pre_morph=False, submission=False):
     ############## FE: COMBINE COORDINATES ##############
     data = dist_column(data, "axonal_coords", "axonal_coor_")
     data = dist_column(data, "dendritic_coords", "dendritic_coor_")
-    data = dist_column(data, "pre_rf_coords", "pre_rf_")
-    data = dist_column(data, "post_rf_coords", "post_rf_")
+    data = dist_column(data, "pre_rf_coords", "pre_rf_[xy]")
+    data = dist_column(data, "post_rf_coords", "post_rf_[xy]")
     data = dist_column(data, "pre_nucleus_coords", "pre_nucleus_[xyz]")
     data = dist_column(data, "post_nucleus_coords", "post_nucleus_[xyz]")
 
@@ -123,6 +134,12 @@ def cleaner(train, feature=None, morph=None, pre_morph=False, submission=False):
 def row_feature_similarity(row):
     pre = row["pre_feature_weights"]
     post = row["post_feature_weights"]
+    return (pre * post).sum() / (np.linalg.norm(pre) * np.linalg.norm(post))
+
+#cosine similarity function
+def row_morph_similarity(row):
+    pre = row["pre_morph_embeddings"]
+    post = row["post_morph_embeddings"]
     return (pre * post).sum() / (np.linalg.norm(pre) * np.linalg.norm(post))
 
 
