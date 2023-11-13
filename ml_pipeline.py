@@ -94,34 +94,30 @@ def train_n_predict(train_X, train_y, query_X, query_y, models):
 
     - accuracy_score: list of accuracies based on order of models
     passed.
+
+    - trained_models: distionary of trained models
     """
     accuracy_score = {}
+
+    #OverSampling
+    ros = RandomOverSampler(random_state=0, sampling_strategy = 'minority')
+    X_query_resampled, y_query_resampled = ros.fit_resample(
+        query_X, query_y
+    )
     for model in models:
 
-        #Defining a pipeline
-        pipe = Pipeline([
-            ("scaler", StandardScaler()),
-            ("model", models[model])
-        ])
 
-        X = query_X.copy()
-        y = query_y.copy()
-
-        #OverSampling
-        ros = RandomOverSampler(random_state=0, sampling_strategy = 'minority')
-        X_resampled, y_resampled = ros.fit_resample(
-            X, y
-        )
+        current_model = models[model]
 
         # fit model
-        pipe.fit(X_resampled, y_resampled)
+        current_model.fit(X_query_resampled, y_query_resampled)
 
         #Predicting from soft labels
         ## TO DO: FIX THIS MAYBE
-        X_resampled["pred"] = pipe.predict_proba(X_resampled)[:, 1]
+        X_query_resampled["pred"] = current_model.predict(X_query_resampled)
         balanced_accuracy = balanced_accuracy_score(
-            y_resampled, 
-            X_resampled["pred"] > 0.5)
+            y_query_resampled, 
+            X_query_resampled["pred"])
         accuracy_score[model] = balanced_accuracy
 
     best_clf_name = max(accuracy_score, key = accuracy_score.get)
@@ -133,9 +129,17 @@ def train_n_predict(train_X, train_y, query_X, query_y, models):
     train_X_resampled, train_y_resampled = ros.fit_resample(
             train_X, train_y
         )
+    
+    trained_models = {}
+
+    ##Getting all other models trained too
+    for model in models:
+        current_model = models[model]
+        current_model.fit(train_X_resampled,train_y_resampled)
+        trained_models[model] = current_model
 
     best_clf.fit(train_X_resampled, train_y_resampled)
-    return accuracy_score, best_clf
+    return accuracy_score, best_clf, trained_models
 
 
 def validation(model, valid_X, valid_y, param_grid):
