@@ -50,7 +50,7 @@ def cleaner(train, feature=None, morph_vec=None, pre_morph=False, submission=Fal
     data.merge(morph_vecs, on="ID")
 
     ############## FE: CALCULATE DISTANCES BETWEEN IMPUTED MORPH EMBEDDINGS ###################
-    data["me_similarity"] = data.apply(row_feature_similarity, axis=1)
+    data["me_similarity"] = data.apply(row_morph_similarity, axis=1)
 
 
 
@@ -110,8 +110,8 @@ def cleaner(train, feature=None, morph_vec=None, pre_morph=False, submission=Fal
         
     ############## FE: PER-NEURON ADP COUNTS ##############
     # if not submission:
-    counts = data.groupby('pre_nucleus_id').count() # count of each presynaptic neuron
-    counts = pd.DataFrame(counts["ID"]).rename(columns={"ID":"ADP_total"})
+    # counts = data.groupby('pre_nucleus_id').count() # count of each presynaptic neuron
+    # counts = pd.DataFrame(counts["ID"]).rename(columns={"ID":"ADP_total"})
         
         # total_connections = data[["pre_nucleus_id", "connected"]].groupby('pre_nucleus_id').sum()
         # total_connections = total_connections["connected"]
@@ -119,7 +119,7 @@ def cleaner(train, feature=None, morph_vec=None, pre_morph=False, submission=Fal
         # adp_counts = adp_counts.rename(columns={"ID":"ADP_total", "connected":"connect_total"})
         # adp_counts["connect_rate"] = adp_counts["connect_total"]/adp_counts["ADP_total"]
         # print(data)
-    data = data.merge(counts, how='left', left_on='pre_nucleus_id', right_on='pre_nucleus_id')
+    # data = data.merge(counts, how='left', left_on='pre_nucleus_id', right_on='pre_nucleus_id')
         # print(data)
 
     ############## STANDARDIZE ALL NUMERIC DATA #############
