@@ -3,14 +3,14 @@ import numpy as np
 import math
 import sklearn.preprocessing
 
-def cleaner(train, feature=None, morph_vec=None, pre_morph=False, submission=False):
+def cleaner(train, feature=None, imp_morph=None, pre_morph=False, submission=False):
     """
     Function that performs data cleaning and feature engineering for the data
 
     inputs:
     - train: path to training data
     - feature: path to feature data
-    - morph_vec: path to imputed morph vector data
+    - imp_morph: path to imputed morph embedding data
 
     outputs:
     - data: cleaned and feature engineered data
@@ -46,15 +46,21 @@ def cleaner(train, feature=None, morph_vec=None, pre_morph=False, submission=Fal
         ))
     
     ############## CONCAT IMPUTED MORPH VECTOR DATA ################
-    morph_vecs = pd.read_csv(morph_vec)
-    data.merge(morph_vecs, on="ID")
+    morph_embs = pd.read_csv(imp_morph)
+    morph_embs["pre_morph_embeddings"] = (morph_embs.filter(regex="pre_morph_emb_").sort_index(axis=1)
+                                          .apply(lambda x: np.array(x), axis=1))
+    
+    morph_embs["post_morph_embeddings"] = (morph_embs.filter(regex="post_morph_emb_")
+                                           .sort_index(axis=1).apply(lambda x: np.array(x), axis=1))
+    
+    morph_embs.drop(morph_embs.filter(regex="_morph_emb_").columns, axis=1, inplace=True)
+    morph_embs["ID"] = data["ID"]
+    data = data.merge(morph_embs, on="ID")
 
     ############## FE: CALCULATE DISTANCES BETWEEN IMPUTED MORPH EMBEDDINGS ###################
     data["me_similarity"] = data.apply(row_morph_similarity, axis=1)
 
-
-
-
+    
 
     ############## OLD CODE: CONCAT MORPH DATA ##############
     # if morph:
