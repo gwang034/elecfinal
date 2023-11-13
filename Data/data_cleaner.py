@@ -50,7 +50,7 @@ def cleaner(train, feature=None, morph_vec=None, pre_morph=False, submission=Fal
     data.merge(morph_vecs, on="ID")
 
     ############## FE: CALCULATE DISTANCES BETWEEN IMPUTED MORPH EMBEDDINGS ###################
-    data["me_similarity"] = data.apply(row_feature_similarity, axis=1)
+    data["me_similarity"] = data.apply(row_morph_similarity, axis=1)
 
 
 
