@@ -159,7 +159,6 @@ def validation(model, valid_X, valid_y, param_grid):
 
     Outputs: 
     clf: provided model with optimum hyperparameters
-    perf: performance of the model during CV
     """
     scoring = {"balanced accuracy": make_scorer(balanced_accuracy_score)}
     cv = GridSearchCV(model, 
