@@ -121,7 +121,7 @@ def validation(models, X_train, y_train, X_val, y_val, param_grids):
 
     return optimum_models, accuracies
 
-def query_and_predict(tuned_models, X_train, y_train, X_query, y_query):
+def query(tuned_models, X_train, y_train, X_query, y_query):
     """
     Function that outputs the best, trained, model based on a query set as well as 
     accuracies of each inputted model
