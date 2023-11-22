@@ -77,7 +77,7 @@ def clean_split(train_path, feature_path=None, morph_path=None):
 
 def validation(models, X_train, y_train, X_val, y_val, param_grids):
     """
-    Function that outputs a model with optimal hyperparameters and
+    Function that outputs models with optimal hyperparameters and
     accuracies based on a validation set
 
     Inputs:
@@ -120,6 +120,32 @@ def validation(models, X_train, y_train, X_val, y_val, param_grids):
         optimum_models[model] = classifier.set_params(**optimum_param)
 
     return optimum_models, accuracies
+
+def query_and_predict(tuned_models, X_train, y_train, X_query, y_query):
+    """
+    Function that outputs the best, trained, model based on a query set as well as 
+    accuracies of each inputted model
+
+    Inputs:
+    tuned_models: provided tuned models dictionary
+    {"RFC": RandomForestClassifier(**best_params), 
+    "LDA": LinearDiscriminantAnalysis(**best_params)}
+
+    Outputs: 
+    optimum_model: best model
+    """ 
+    accuracies = dict()
+    prev_acc = 0
+    for model in tuned_models:
+        classifier = tuned_models[model]
+        classifier.fit(X_train, y_train)
+        yhat = classifier.predict(X_query)
+        balanced_accuracy = balanced_accuracy_score(y_query, yhat)
+        accuracies[model] = balanced_accuracy
+        if balanced_accuracy > prev_acc:
+            prev_acc = balanced_accuracy
+            optimum_model = classifier
+    return optimum_model, accuracies
         
 
 
