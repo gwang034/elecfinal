@@ -96,11 +96,11 @@ def cleaner(train, feature=None, imp_morph=None, pre_morph=False, submission=Fal
         
     ############## FE: PROJECTION GROUP ##############
     # generate projection group as pre->post
-    data["projection_group"] = (
-        data["pre_brain_area"].astype(str)
-        + "->"
-        + data["post_brain_area"].astype(str)
-    )
+    # data["projection_group"] = (
+        # data["pre_brain_area"].astype(str)
+    #     + "->"
+    #     + data["post_brain_area"].astype(str)
+    # )
 
     ############## FE: COMBINE COORDINATES ##############
     data = dist_column(data, "axonal_coords", "axonal_coor_")
@@ -108,7 +108,7 @@ def cleaner(train, feature=None, imp_morph=None, pre_morph=False, submission=Fal
     data = dist_column(data, "pre_rf_coords", "pre_rf_[xy]")
     data = dist_column(data, "post_rf_coords", "post_rf_[xy]")
     data = dist_column(data, "pre_nucleus_coords", "pre_nucleus_[xyz]")
-    data = dist_column(data, "post_nucleus_coords", "post_nucleus_[xyz]")
+    ## data = dist_column(data, "post_nucleus_coords", "post_nucleus_[xyz]")
 
     ############## FE: DISTANCE FROM PRE-SYNAPTIC NUCLEUS TO AXON ##############
     data["nuclei_adp_dist"] =  data[["pre_nucleus_coords", "axonal_coords"]].apply(
@@ -157,9 +157,9 @@ def dist_column(df, new_col, old_cols):
         .apply(lambda x: np.array(x), axis=1)
     )
     # delete the old columns
-    df.drop(
-        df.filter(regex=old_cols).columns, axis=1, inplace=True
-    )
+    # df.drop(
+    #     df.filter(regex=old_cols).columns, axis=1, inplace=True
+    # )
     return df
 
 
