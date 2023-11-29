@@ -108,7 +108,14 @@ def cleaner(train, feature=None, imp_morph=None, pre_morph=False, submission=Fal
     data = dist_column(data, "pre_rf_coords", "pre_rf_[xy]")
     data = dist_column(data, "post_rf_coords", "post_rf_[xy]")
     data = dist_column(data, "pre_nucleus_coords", "pre_nucleus_[xyz]")
-    ## data = dist_column(data, "post_nucleus_coords", "post_nucleus_[xyz]")
+    data = dist_column(data, "post_nucleus_coords", "post_nucleus_[xyz]")
+
+    data = dist_column(data, "pre_nucleus_xy", "pre_nucleus_[xy]")
+    data = dist_column(data, "post_nucleus_xy", "post_nucleus_[xy]")
+
+    ############## FE: MINICOLUMNS? ##############
+    data["minicol_dist"] =  data[["pre_nucleus_xy", "post_nucleus_xy"]].apply(
+    lambda x: math.dist(x["pre_nucleus_xy"], x["post_nucleus_xy"]), axis=1)
 
     ############## FE: DISTANCE FROM PRE-SYNAPTIC NUCLEUS TO AXON ##############
     data["nuclei_adp_dist"] =  data[["pre_nucleus_coords", "axonal_coords"]].apply(
