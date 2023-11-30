@@ -103,15 +103,26 @@ def cleaner(train, feature=None, imp_morph=None, pre_morph=False, submission=Fal
     # )
 
     ############## FE: COMBINE COORDINATES ##############
-    data = dist_column(data, "axonal_coords", "axonal_coor_")
-    data = dist_column(data, "dendritic_coords", "dendritic_coor_")
-    data = dist_column(data, "pre_rf_coords", "pre_rf_[xy]")
-    data = dist_column(data, "post_rf_coords", "post_rf_[xy]")
-    data = dist_column(data, "pre_nucleus_coords", "pre_nucleus_[xyz]")
-    data = dist_column(data, "post_nucleus_coords", "post_nucleus_[xyz]")
+    data = coord_column(data, "axonal_coords", "axonal_coor_")
+    data = coord_column(data, "dendritic_coords", "dendritic_coor_")
+    data = coord_column(data, "pre_rf_coords", "pre_rf_[xy]")
+    data = coord_column(data, "post_rf_coords", "post_rf_[xy]")
+    data = coord_column(data, "pre_nucleus_coords", "pre_nucleus_[xyz]")
+    data = coord_column(data, "post_nucleus_coords", "post_nucleus_[xyz]")
 
-    data = dist_column(data, "pre_nucleus_xy", "pre_nucleus_[xy]")
-    data = dist_column(data, "post_nucleus_xy", "post_nucleus_[xy]")
+    data = coord_column(data, "pre_nucleus_xy", "pre_nucleus_[xy]")
+    data = coord_column(data, "post_nucleus_xy", "post_nucleus_[xy]")
+
+    ############## FE: RF SIMILARITY ##############
+    data = coord_df(data)
+    data["rf_similarity"] = data.apply(rfsimilarity, axis=1)
+
+    ############## FE: BRAIN AREA ##############
+    data = one_hot('pre_brain_area', data, '_pre')
+    data = one_hot('post_brain_area', data, '_post')
+
+    ############## FE: BRAIN COMPARTMENT GROPUING ##############
+    data = area_cols(data)
 
     ############## FE: MINICOLUMNS? ##############
     data["minicol_dist"] =  data[["pre_nucleus_xy", "post_nucleus_xy"]].apply(
@@ -156,8 +167,8 @@ def row_morph_similarity(row):
     return (pre * post).sum() / (np.linalg.norm(pre) * np.linalg.norm(post))
 
 
-# join all distance columns into a single np.array column
-def dist_column(df, new_col, old_cols):
+# join all distance columns with coordinates into a single np.array column
+def coord_column(df, new_col, old_cols):
     df[new_col] = (
         df.filter(regex=old_cols)
         .sort_index(axis=1)
@@ -169,6 +180,40 @@ def dist_column(df, new_col, old_cols):
     # )
     return df
 
+# only the x and y coordinates
+def coord_df(df):
+    df = coord_column(df, "pre_rf_coords_xy", "pre_rf_[xy]")
+    df = coord_column(df, "post_rf_coords_xy", "post_rf_[xy]")
+    return df
+
+def rfsimilarity(row):
+    pre = row["pre_rf_coords_xy"]
+    post = row["post_rf_coords_xy"]
+    return (pre * post).sum() / (np.linalg.norm(pre) * np.linalg.norm(post))
+
+def one_hot(column, df, suffix=''):
+    """
+    one-hot encodes this shit
+    """
+    cats = pd.unique(df[column])
+
+    for cat in cats:
+        new_col = cat+suffix
+        df[new_col] = df[column]==cat
+        df[new_col] = df[new_col].astype('int')
+    
+    df = df.drop(columns=column)
+    return df
 
 
+
+def area_cols(df):
+    # Encode brain areas
+    area1 = ["basal", "soma"]
+    area2 = ["axon", "apical", "oblique", "apical_shaft"]
+    area3 = ["apical_tuft"]
+    df["area1"] = df["compartment"].isin(area1).astype('int')
+    df["area2"] = df["compartment"].isin(area2).astype('int')
+    df["area3"] = df["compartment"].isin(area3).astype('int')
+    return df
 
