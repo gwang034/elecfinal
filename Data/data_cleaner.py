@@ -113,7 +113,7 @@ def cleaner(train, feature=None, imp_morph=None, pre_morph=False, submission=Fal
     data = coord_column(data, "pre_nucleus_xy", "pre_nucleus_[xy]")
     data = coord_column(data, "post_nucleus_xy", "post_nucleus_[xy]")
 
-    ############## FE: RF SIMILARITY ##############
+    ############## FE: RF Distance ##############
     data = coord_df(data)
     data["rf_similarity"] = data.apply(rfsimilarity, axis=1)
 
